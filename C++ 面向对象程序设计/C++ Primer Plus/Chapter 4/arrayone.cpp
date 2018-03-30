@@ -8,7 +8,8 @@ int main()
     yams[1] = 8;
     yams[2] = 6;
 
-    int yamcosts[3] = {20, 30, 5}; // create, initialize array
+    int yamcosts[3] = {20, 30, 5}; 
+// create, initialize array
 // NOTE: If your C++ compiler or translator can't initialize
 // this array, use static int yamcosts[3] instead of
 // int yamcosts[3]

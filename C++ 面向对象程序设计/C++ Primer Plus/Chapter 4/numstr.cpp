@@ -5,7 +5,12 @@ int main()
     using namespace std;
     cout << "What year was your house built?\n";
     int year;
-    cin >> year;
+	//origin code
+	//                  cin>>year; 
+	//will cause getline think this is a blank line
+
+	//how to fix
+    (cin >> year).get();
     // cin.get();
     cout << "What is its street address?\n";
     char address[80];

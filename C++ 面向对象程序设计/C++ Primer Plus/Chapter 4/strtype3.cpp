@@ -2,6 +2,7 @@
 #include <iostream>
 #include <string>               // make string class available
 #include <cstring>              // C-style string library
+#pragma warning(disable:4996) //disable warning from C language 4996
 int main()
 {
     using namespace std;
@@ -30,3 +31,4 @@ int main()
 
     return 0; 
 }
+//C++ the best language!

@@ -17,3 +17,4 @@ int main()
 	// cin.get();
     return 0; 
 }
+//promble : can`t read such as New York . only New will be servered.
