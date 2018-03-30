@@ -10,8 +10,8 @@ int main()
     auks = 19.99 + 11.99;
 
     // these statements add values as int
-    bats = (int) 19.99 + (int) 11.99;   // old C syntax
-    coots = int (19.99) + int (11.99);  // new C++ syntax
+    bats = (int) 19.99 + (int) 11.99;   // old C syntax 19.99+11.99=31.98->31
+    coots = int (19.99) + int (11.99);  // new C++ syntax ->19+->11=30
     cout << "auks = " << auks << ", bats = " << bats;
     cout << ", coots = " << coots << endl;
 

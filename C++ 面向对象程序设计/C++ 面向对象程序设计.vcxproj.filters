@@ -23,7 +23,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 3\arith.cpp">
+    <ClCompile Include="C++ Primer Plus\Chapter 3\typecast.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
