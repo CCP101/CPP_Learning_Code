@@ -5,7 +5,7 @@ int main()
     using namespace std;
     int nights = 1001;
     int * pt = new int;         // allocate space for an int
-    *pt = 1001;                 // store a value there
+    *pt = 11111;                 // store a value there
 
     cout << "nights value = ";
     cout << nights << ": location " << &nights << endl;
@@ -13,7 +13,7 @@ int main()
     cout << "value = " << *pt << ": location = " << pt << endl;
 
     double * pd = new double;   // allocate space for a double
-    *pd = 10000001.0;           // store a double there
+    *pd = 10000001.8;           // store a double there
 
     cout << "double ";
     cout << "value = " << *pd << ": location = " << pd << endl;
@@ -22,6 +22,7 @@ int main()
     cout << ": size of *pt = " << sizeof(*pt) << endl;
     cout << "size of pd = " << sizeof pd;
     cout << ": size of *pd = " << sizeof(*pd) << endl;
-    // cin.get();
+    cin.get();
     return 0;
 }
+//f**k idiot malloc function(C language)

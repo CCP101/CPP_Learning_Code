@@ -13,3 +13,6 @@ int main()
     // cin.get();
     return 0; 
 }
+//c++ style int* ptr (type int point to ptr)
+//diffent from 
+// c     style int *ptr
