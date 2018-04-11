@@ -16,3 +16,4 @@ int main()
     // cin.get();
     return 0; 
 }
+//show how dos it really work
