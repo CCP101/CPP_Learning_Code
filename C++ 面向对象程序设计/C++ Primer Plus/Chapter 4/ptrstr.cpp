@@ -2,7 +2,6 @@
 #include <iostream>
 #include <cstring>              // declare strlen(), strcpy()
 //C #include<string.h>
-
 int main()
 {
     using namespace std;

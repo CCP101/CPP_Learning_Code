@@ -24,8 +24,7 @@ char * getname()        // return pointer to new string
     char temp[80];      // temporary storage
     cout << "Enter last name: ";
     cin >> temp;
-    char * pn = new char[strlen(temp) + 1];
+    char * pn = new char[strlen(temp) + 1];//with a smart way to save space
     strcpy(pn, temp);   // copy string into smaller space
-
     return pn;          // temp lost when function ends
 }
