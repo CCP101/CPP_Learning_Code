@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstring>              // declare strlen(), strcpy()
 //C #include<string.h>
+
 int main()
 {
     using namespace std;
@@ -34,4 +35,4 @@ int main()
     // cin.get();
     return 0; 
 }
-//
+//2018.4.12 THANK YOU GITHUB HAPPY BIRTHDAY!
