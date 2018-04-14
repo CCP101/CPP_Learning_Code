@@ -8,7 +8,11 @@ int main()
 // C, original C++
     double a1[4] = {1.2, 2.4, 3.6, 4.8};
 // C++98 STL
-    vector<double> a2(4);   // create vector with 4 elements
+	vector<int> vi;
+	int n;
+	cin >> n;
+    vector<double> a2(n);  
+// create vector with n elements
 // no simple way to initialize in C98
     a2[0] = 1.0/3.0;
     a2[1] = 1.0/5.0;
