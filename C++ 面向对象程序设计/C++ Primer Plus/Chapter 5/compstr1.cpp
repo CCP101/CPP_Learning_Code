@@ -5,13 +5,12 @@ int main()
 {
     using namespace std;
     char word[5] = "?ate";
-
-    for (char ch = 'a'; strcmp(word, "mate"); ch++)
+    for (char ch = 'a'; strcmp(word, "zate"); ch++)
     {
         cout << word << endl;
         word[0] = ch;
     }
     cout << "After loop ends, word is " << word << endl;
-    // cin.get();
+    cin.get();
     return 0; 
 }

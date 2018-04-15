@@ -1,6 +1,7 @@
 // waiting.cpp -- using clock() in a time-delay loop
 #include <iostream>
-#include <ctime> // describes clock() function, clock_t type
+#include <ctime> 
+// describes clock() function, clock_t type
 int main()
 {
     using namespace std;

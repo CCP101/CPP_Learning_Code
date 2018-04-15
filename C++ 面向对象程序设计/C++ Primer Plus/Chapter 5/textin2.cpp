@@ -5,7 +5,6 @@ int main()
     using namespace std;
     char ch;
     int count = 0;
-
     cout << "Enter characters; enter # to quit:\n";
     cin.get(ch);        // use the cin.get(ch) function
     while (ch != '#')

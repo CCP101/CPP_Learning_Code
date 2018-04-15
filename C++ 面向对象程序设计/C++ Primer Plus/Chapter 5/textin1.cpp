@@ -7,12 +7,12 @@ int main()
     int count = 0;      // use basic input
     cout << "Enter characters; enter # to quit:\n";
     cin >> ch;          // get a character
-    while (ch != '#')   // test the character
+    while (ch != '#')   // test the character if the first charcter is"#"
     {
         cout << ch;     // echo the character
         ++count;        // count the character
         cin >> ch;      // get the next character
-    }
+    }//will cause a problem all " "is lost
     cout << endl << count << " characters read\n";
 // get rid of rest of line
      // while (cin.get() != '\n')

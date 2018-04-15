@@ -152,7 +152,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 5\forstr2.cpp" />
+    <ClCompile Include="C++ Primer Plus\Chapter 5\textin3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
