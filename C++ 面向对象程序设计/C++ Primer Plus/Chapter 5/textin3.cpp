@@ -7,7 +7,6 @@ int main()
     int count = 0;
     cin.get(ch);        // attempt to read a char
     while (cin.fail() == false)  // test for EOF
-		//
 		//in windows 10  use ctrl+z
     {
         cout << ch;     // echo character

@@ -16,9 +16,9 @@ int main()
         else if (n > Fave)
             cout << "Too high -- guess again: ";
         else
-            cout << Fave << " is right!\n";
+            cout <<"Conguations!"<< Fave << " is right!\n";
     } while (n != Fave);
-    // cin.get();
+    cin.get();
     // cin.get();
     return 0;
 }

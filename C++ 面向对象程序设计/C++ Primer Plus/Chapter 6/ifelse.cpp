@@ -3,9 +3,9 @@
 int main()
 {
     char ch;
-
     std::cout << "Type, and I shall repeat.\n";
     std::cin.get(ch);
+	// or use using namespace std; 
     while (ch != '.')
     {
         if (ch == '\n')

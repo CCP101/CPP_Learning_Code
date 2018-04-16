@@ -9,6 +9,7 @@ int main()
     int total = 0;
     cin.get(ch);
     while (ch != '.')   // quit at end of sentence
+		//if put in "." will cuse the program to close
     {
         if (ch == ' ')  // check if ch is a space
             ++spaces;
