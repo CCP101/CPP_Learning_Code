@@ -6,13 +6,14 @@ int main()
 {
     using namespace std;
     double num;
-
     cout << "Yo, dude! Enter an integer value: ";
     cin >> num;
     while (!is_int(num))    // continue while num is not int-able
     {
         cout << "Out of range -- please try again: ";
         cin >> num;
+		//here may cause a problem that cause the program never stop
+		//still unkown how to slove it
     }
     int val = int (num);    // type cast
     cout << "You've entered the integer " << val << "\nBye\n";
@@ -20,7 +21,6 @@ int main()
     // cin.get();
     return 0;
 }
-
 bool is_int(double x)
 {
     if (x <= INT_MAX && x >= INT_MIN)   // use climits values

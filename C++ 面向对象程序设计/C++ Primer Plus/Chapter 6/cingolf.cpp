@@ -12,7 +12,8 @@ int main()
     for (i = 0; i < Max; i++)
     {
         cout << "round #" << i+1 << ": ";
-        while (!(cin >> golf[i])) {
+        while (!(cin >> golf[i])) 
+		{
             cin.clear();     // reset input
             while (cin.get() != '\n')
                 continue;    // get rid of bad input

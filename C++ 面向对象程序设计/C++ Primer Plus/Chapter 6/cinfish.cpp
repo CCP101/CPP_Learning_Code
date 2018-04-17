@@ -1,6 +1,6 @@
 // cinfish.cpp -- non-numeric input terminates loop
 #include <iostream>
-const int Max = 5;
+const int Max = 20;
 int main()
 {
     using namespace std;
@@ -11,7 +11,9 @@ int main()
             << " fish <q to terminate>.\n";
     cout << "fish #1: ";
     int i = 0;
-    while (i < Max && cin >> fish[i]) {
+    while (i < Max && cin >> fish[i])
+		//if !(i < Max) will not operate cin>> fish[i]
+	{
         if (++i < Max)
             cout << "fish #" << i+1 << ": ";
     }

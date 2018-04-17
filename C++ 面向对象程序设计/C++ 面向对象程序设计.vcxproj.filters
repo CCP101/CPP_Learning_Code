@@ -26,7 +26,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 6\or.cpp">
+    <ClCompile Include="C++ Primer Plus\Chapter 6\cingolf.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

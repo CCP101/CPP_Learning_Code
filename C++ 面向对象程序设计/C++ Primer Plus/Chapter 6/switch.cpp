@@ -14,6 +14,7 @@ int main()
         switch(choice)
         {
             case 1  :   cout << "\a\n";
+				//"\a means system bell"
                         break;
             case 2  :   report();
                         break;
@@ -27,7 +28,7 @@ int main()
         cin >> choice;
     }
     cout << "Bye!\n";
-    // cin.get();
+    cin.get();
     // cin.get();
     return 0;
 }
@@ -39,6 +40,7 @@ void showmenu()
             "3) alibi           4) comfort\n"
             "5) quit\n";
 }
+//rember the time of doing course project LOL
 void report()
 {
     cout << "It's been an excellent week for business.\n"

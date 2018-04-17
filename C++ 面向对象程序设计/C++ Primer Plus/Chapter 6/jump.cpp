@@ -6,9 +6,9 @@ int main()
     using namespace std;
     char line[ArSize];
     int spaces = 0; 
-
     cout << "Enter a line of text:\n";
     cin.get(line, ArSize);
+	//control profram will not take more than 80 words
     cout << "Complete line:\n" << line << endl;
     cout << "Line through first period:\n";
     for (int i = 0; line[i] != '\0'; i++)
@@ -26,3 +26,4 @@ int main()
     // cin.get();
     return 0;
 }
+//warning : at any place we should try our best not to use "goto"
