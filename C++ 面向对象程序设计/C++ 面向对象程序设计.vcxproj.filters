@@ -24,9 +24,24 @@
     <ClInclude Include="C++ Primer Plus\Chapter 4\arraynew.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="C++ study\unknow_code_qt\socket.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="C++ study\unknow_code_qt\strOp.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="C++ study\unknow_code_qt\ui.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 6\cingolf.cpp">
+    <ClCompile Include="C++ study\unknow_code_qt\socket.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ study\unknow_code_qt\strOp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="C++ study\unknow_code_qt\ui.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
