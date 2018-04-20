@@ -26,8 +26,8 @@ class triangle
     }
     private:
     int a,b,c;
-    int area,length;
-    int p;
+    double area,length;
+    double p;
 };
 int main()
 {
