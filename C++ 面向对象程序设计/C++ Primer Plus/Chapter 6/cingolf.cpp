@@ -12,6 +12,7 @@ int main()
     for (i = 0; i < Max; i++)
     {
         cout << "round #" << i+1 << ": ";
+		// if put in chatcter not number 
         while (!(cin >> golf[i])) 
 		{
             cin.clear();     // reset input
@@ -20,6 +21,7 @@ int main()
             cout << "Please enter a number: ";
         }
     }
+	//return to the place until when the user put in the legal data 
 // calculate average
     double total = 0.0;
     for (i = 0; i < Max; i++)

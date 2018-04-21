@@ -2,6 +2,8 @@
 #include <iostream>
 #include <fstream>          // file I/O support
 #include <cstdlib>          // support for exit()
+//unknown how the IDE define where the file is
+//patch:D:\Work Station\Visual Studio\C++ 面向对象程序设计\C++ 面向对象程序设计\C++ 面向对象程序设计
 const int SIZE = 60;
 int main()
 {
@@ -30,7 +32,7 @@ int main()
         sum += value;       // calculate running total
         inFile >> value;    // get next value
     }
-    if (inFile.eof())
+    if (inFile.eof())//the function look for the end of the fire
         cout << "End of file reached.\n";
     else if (inFile.fail())
         cout << "Input terminated by data mismatch.\n";

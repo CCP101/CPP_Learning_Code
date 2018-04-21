@@ -1,11 +1,9 @@
 // outfile.cpp -- writing to a file
 #include <iostream>
-#include <fstream>                  // for file I/O
-
+#include <fstream>                  // head file for file Input/Output
 int main()
 {
     using namespace std;
-
     char automobile[50];
     int year;
     double a_price;
@@ -13,6 +11,7 @@ int main()
 
     ofstream outFile;               // create object for output
     outFile.open("carinfo.txt");    // associate with a file
+	//if it is not exist the IDE will create it
 
     cout << "Enter the make and model of automobile: ";
     cin.getline(automobile, 50);
@@ -33,6 +32,7 @@ int main()
     cout << "Now asking $" << d_price << endl;
 
 // now do exact same things using outFile instead of cout
+	//show how to use outFile
 
     outFile << fixed;
     outFile.precision(2);
@@ -42,7 +42,7 @@ int main()
     outFile << "Was asking $" << a_price << endl;
     outFile << "Now asking $" << d_price << endl;
     
-    outFile.close();                // done with file
+    outFile.close();                // done(you should close the file when the program is down  ) with file
     // cin.get();
     // cin.get();
     return 0;
