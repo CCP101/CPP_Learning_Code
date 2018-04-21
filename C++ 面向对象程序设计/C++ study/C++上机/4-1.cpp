@@ -7,12 +7,12 @@ class Box
     {
         cin>>length;
     }
-    int box_area()
+    double box_area()
     {
         area=6*length*length;
         return area;
     }
-    int box_volume()
+    double box_volume()
     {
         volume=length*length*length;
         return volume;
@@ -22,8 +22,8 @@ class Box
         cout<<"length="<<length<<endl<<"area="<<area<<endl<<"vloume="<<volume<<endl;
     }
     private:
-    int length;
-    int area,volume;
+    double length;
+    double area,volume;
 };
 int main()
 {

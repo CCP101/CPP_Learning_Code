@@ -8,13 +8,13 @@ class triangle
     {
         cin>>a>>b>>c;
     }
-    int triangle_area()
+    double triangle_area()
     {
         p=(a+b+c)/2;
         area=sqrt((p*(p-a)*(p-b)*(p-c)));
         return area;
     }
-    int triangle_length()
+    double triangle_length()
     {
         length=a+b+c;
         return length;
@@ -25,7 +25,7 @@ class triangle
         cout<<"area="<<area<<endl<<"length="<<length<<endl;
     }
     private:
-    int a,b,c;
+    double a,b,c;
     double area,length;
     double p;
 };
