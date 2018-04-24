@@ -13,7 +13,7 @@ int main()
     cout << "A " << side <<"-foot cube has a volume of ";
     cout << volume << " cubic feet.\n";
     cheers(cube(2));    // prototype protection at work
-    // cin.get();
+    cin.get();
     // cin.get();
     return 0;
 }

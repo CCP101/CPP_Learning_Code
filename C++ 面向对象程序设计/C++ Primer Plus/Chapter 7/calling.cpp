@@ -1,8 +1,6 @@
 // calling.cpp -- defining, prototyping, and calling a function
 #include <iostream>
-
 void simple();    // function prototype
-
 int main()
 {
     using namespace std;
@@ -12,7 +10,6 @@ int main()
     // cin.get();
     return 0;
 }
-
 // function definition
 void simple()
 {
