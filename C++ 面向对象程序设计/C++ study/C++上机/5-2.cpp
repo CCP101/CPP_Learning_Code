@@ -1,4 +1,5 @@
-#include<iostream.h>
+#include<iostream>
+using namespace std;
 class M
 {
     private:
@@ -7,24 +8,23 @@ class M
        friend istream & operator>>(istream &,M &);
 	   friend M operator+(M &x,M &y);
        friend ostream & operator<<(ostream &,M &); 
-       
 };
 M operator+(M &x,M &y)
-		{
-			 M d;
-			 int i,j;
-             for(i=0;i<=1;i++)
-                for(j=0;j<=2;j++)
+{
+		 M d;
+		 int i,j;
+		 for(i=0;i<=1;i++)
+			 for(j=0;j<=2;j++)
                    d.a[i][j]=x.a[i][j]+y.a[i][j];       
-            return d;
-		}
+		 return d;
+}
 istream & operator>>(istream &in,M &o2)
 {
     cout<<"xx"<<endl;
     int i,j;
     for(i=0;i<=1;i++)
-      for(j=0;j<=2;j++)
-         in>>o2.a[i][j];
+        for(j=0;j<=2;j++)
+			in>>o2.a[i][j];
     return in;
 }
 ostream & operator<<(ostream &out,M &o3)
@@ -32,8 +32,8 @@ ostream & operator<<(ostream &out,M &o3)
     cout<<"xx"<<endl;
     int i,j;
     for(i=0;i<=1;i++)
-      for(j=0;j<=2;j++)
-         out<<o3.a[i][j]<<" ";
+		for(j=0;j<=2;j++)
+			out<<o3.a[i][j]<<" ";
     return out;
 }
 int main()

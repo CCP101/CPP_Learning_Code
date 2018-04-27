@@ -1,4 +1,5 @@
-#include<iostream.h>
+﻿#include<iostream>
+using namespace std;
 class A
 {
     private:
@@ -32,7 +33,7 @@ istream & operator>>(istream &in,A &o2)
 }
 ostream & operator<<(ostream &out,A &o3)
 {
-    cout<<"数字为："<<endl;
+    cout<<"输出数字为："<<endl;
     out<<o3.m<<" "<<o3.n<<endl;
     return out;
 }
