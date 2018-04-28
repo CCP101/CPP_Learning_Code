@@ -26,7 +26,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ study\C++上机\5-2.cpp">
+    <ClCompile Include="C++ study\C++上机\5-1.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

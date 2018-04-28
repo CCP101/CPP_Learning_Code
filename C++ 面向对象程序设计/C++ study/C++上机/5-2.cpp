@@ -20,7 +20,7 @@ M operator+(M &x,M &y)
 }
 istream & operator>>(istream &in,M &o2)
 {
-    cout<<"xx"<<endl;
+    cout<<"请分别输入数组的每一行"<<endl;
     int i,j;
     for(i=0;i<=1;i++)
         for(j=0;j<=2;j++)
@@ -29,11 +29,17 @@ istream & operator>>(istream &in,M &o2)
 }
 ostream & operator<<(ostream &out,M &o3)
 {
-    cout<<"xx"<<endl;
+    out<<"输出结果为："<<endl;
     int i,j;
+	int count = 0;
     for(i=0;i<=1;i++)
-		for(j=0;j<=2;j++)
-			out<<o3.a[i][j]<<" ";
+		for (j = 0; j <= 2; j++)
+		{
+			count++;
+			out << o3.a[i][j] << " ";
+			if (count% 3 == 0)
+				out << endl;
+		}
     return out;
 }
 int main()
