@@ -152,7 +152,7 @@
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ study\Chapter 3\3-2.cpp" />
+    <ClCompile Include="C++ study\第一次大作业\矩阵.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
