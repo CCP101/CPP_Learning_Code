@@ -7,16 +7,16 @@ class Time
     public:
        Time(int a1=0,int b1=0, int c1=0)
        {
-           a1=a;
-           b1=b;
-           c1=c;
+		   a1 = a;
+		   b1 = b;
+		   c1 = c;
        }
        friend istream & operator>>(istream &,Time &);
-	   friend Time operator+(Time &x, Time &y);
+	   friend Time operator*(Time &x, Time &y);
        friend Time operator+(int a3, Time &y);
        friend ostream & operator<<(ostream &,Time &); 
 };
-Time operator+(Time &x,Time &y)
+Time operator*(Time &x,Time &y)
 {
 	     Time d;
          d.a=x.a+y.a;
@@ -48,7 +48,7 @@ int main()
 {
     Time s1(1,1,1),s2(0,0),s3,s4;
     cin>>s1>>s2;
-    s3=s1+s2;
+    s3=s1*s2;
     cout<<s3;
     s4=5+s3;
     cout<<s4;

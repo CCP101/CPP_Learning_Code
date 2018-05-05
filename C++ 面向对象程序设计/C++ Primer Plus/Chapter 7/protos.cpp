@@ -12,7 +12,7 @@ int main()
     double volume = cube(side);    // function call
     cout << "A " << side <<"-foot cube has a volume of ";
     cout << volume << " cubic feet.\n";
-    cheers(cube(2));    // prototype protection at work
+    cheers(cube(side));    // prototype protection at work
     cin.get();
     // cin.get();
     return 0;
@@ -28,5 +28,5 @@ void cheers(int n)
 
 double cube(double x)
 {
-    return x * x * x; 
+    return x * x ; 
 }

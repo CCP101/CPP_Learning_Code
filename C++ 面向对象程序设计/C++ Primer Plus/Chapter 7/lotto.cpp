@@ -13,10 +13,10 @@ int main()
         cout << "You have one chance in ";
         cout << probability(total, choices);      // compute the odds
         cout << " of winning.\n";
-        cout << "Next two numbers (q to quit): ";
+        cout << "Next two numbers (type in other thing to quit): ";
     }
     cout << "bye\n";
-    // cin.get();
+    cin.get();
     // cin.get();
     return 0;
 }
@@ -28,7 +28,6 @@ long double probability(unsigned numbers, unsigned picks)
     long double result = 1.0;  // here come some local variables
     long double n;
     unsigned p;
-
     for (n = numbers, p = picks; p > 0; n--, p--)
         result = result * n / p ; 
     return result;
