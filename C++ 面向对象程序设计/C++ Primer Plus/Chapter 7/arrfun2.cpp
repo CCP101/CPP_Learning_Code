@@ -1,7 +1,7 @@
 // arrfun2.cpp -- functions with an array argument
 #include <iostream>
 const int ArSize = 8;
-int sum_arr(int arr[], int n);
+int sum_arr(const int arr[], int n);
 // use std:: instead of using directive
 int main()
 {
@@ -17,14 +17,15 @@ int main()
     std::cout << "First three eaters ate " << sum << " cookies.\n";
     sum = sum_arr(cookies + 4, 4);    // another lie
     std::cout << "Last four eaters ate " << sum << " cookies.\n";
-    // std::cin.get();
+    std::cin.get();
 	return 0;
 }
 
 // return the sum of an integer array
-int sum_arr(int arr[], int n)
+int sum_arr(const int arr[], int n)
 {
     int total = 0;
+	//arr[0] += 10; will cause a problem that because const arr[] means that you can't change the data
     std::cout << arr << " = arr, ";
 // some systems require a type cast: unsigned (arr)
     std::cout << sizeof arr << " = sizeof arr\n";

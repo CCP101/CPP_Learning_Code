@@ -1,17 +1,14 @@
 // arrfun3.cpp -- array functions and const
 #include <iostream>
 const int Max = 5;
-
 // function prototypes
 int fill_array(double ar[], int limit);
-void show_array(const double ar[], int n);  // don't change data
+void show_array(const double ar[], int n);  // const don't change data
 void revalue(double r, double ar[], int n);
-
 int main()
 {
     using namespace std;
     double properties[Max];
-
     int size = fill_array(properties, Max);
     show_array(properties, size);
     if (size > 0)
