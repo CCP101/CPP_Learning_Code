@@ -6,7 +6,6 @@ int main()
     using namespace std;
     int times;
     char ch;
-
     cout << "Enter a character: ";
     cin >> ch;
     cout << "Enter an integer: ";
