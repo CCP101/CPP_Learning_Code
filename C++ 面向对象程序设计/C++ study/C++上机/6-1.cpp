@@ -53,3 +53,4 @@ int main()
     b1.distance();
     return 0;
 }
+//多层三角形面积派生创建
