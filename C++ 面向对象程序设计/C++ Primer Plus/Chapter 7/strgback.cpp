@@ -17,7 +17,7 @@ int main()
     cout << ps << "-DONE-" << ps << endl;
     delete [] ps;                   // free memory
     cin.get();
-    // cin.get();
+    cin.get();
     return 0;
 }
 
