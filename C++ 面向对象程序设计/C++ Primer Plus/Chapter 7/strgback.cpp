@@ -13,8 +13,8 @@ int main()
     char *ps = buildstr(ch, times);
     cout << ps << endl;
     delete [] ps;                   // free memory
-    ps = buildstr('+', 20);         // reuse pointer
-    cout << ps << "-DONE-" << ps << endl;
+    ps = buildstr('+', times);         // reuse pointer
+    cout << ps << endl<<"DONE" << endl<<ps<<endl;
     delete [] ps;                   // free memory
     cin.get();
     cin.get();

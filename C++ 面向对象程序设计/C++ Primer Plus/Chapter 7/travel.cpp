@@ -15,16 +15,13 @@ int main()
     using namespace std;
     travel_time day1 = {5, 45};    // 5 hrs, 45 min
     travel_time day2 = {4, 55};    // 4 hrs, 55 min
-
     travel_time trip = sum(day1, day2);
     cout << "Two-day total: ";
     show_time(trip);
-
     travel_time day3= {4, 32};
     cout << "Three-day total: ";
     show_time(sum(trip, day3));
     // cin.get();
-
     return 0;
 }
 
