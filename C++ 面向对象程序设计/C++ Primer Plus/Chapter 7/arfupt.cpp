@@ -9,7 +9,6 @@ int main()
 {
     using namespace std;
     double av[3] = {1112.3, 1542.6, 2227.9};
-
     // pointer to a function
     const double *(*p1)(const double *, int) = f1;
     auto p2 = f2;  // C++0x automatic type deduction
@@ -19,7 +18,6 @@ int main()
     cout << " Address  Value\n";
     cout <<  (*p1)(av,3) << ": " << *(*p1)(av,3) << endl;
     cout << p2(av,3) << ": " << *p2(av,3) << endl;
-
     // pa an array of pointers
     // auto doesn't work with list initialization
     const double *(*pa[3])(const double *, int) = {f1,f2,f3};
