@@ -38,3 +38,4 @@ int main()
 	printf("%d\n", ans / 4);
 	return 0;
 }
+//
