@@ -6,10 +6,8 @@ struct travel_time
     int mins;
 };
 const int Mins_per_hr = 60;
-
-travel_time sum(travel_time t1, travel_time t2);
+travel_time sum(travel_time t1, travel_time t2);// use struct name to create function
 void show_time(travel_time t);
-
 int main()
 {
     using namespace std;
