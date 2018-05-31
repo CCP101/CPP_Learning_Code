@@ -38,7 +38,7 @@ class zuobiao2:private zuobiao
        void outprint()
        {
            cout<<"x2="<<x2<<" "<<"y2="<<y2<<" "<<endl;
-           cout<<"x="<<Getx()<<" "<<"y="<<Gety<<" "<<endl;
+           cout<<"x="<<Getx()<<" "<<"y="<<Gety()<<" "<<endl;
        }
        void distance()
        {
