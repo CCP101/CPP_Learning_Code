@@ -2,7 +2,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include "en_decryption.h"
+
 #include "ui.h"
 #include "strOp.h"
 int execmd(char* cmd,char* result) {
@@ -20,7 +20,7 @@ int execmd(char* cmd,char* result) {
     return 1;
 }
 
-void get_key(char *key, char *username, char *password){
+/*void get_key(char *key, char *username, char *password){
     char result[33]="";
     char command[1000];
     strcpy(command,"curl -s \"http://47.91.222.94/hmk1/get_key.php?username=");
@@ -34,4 +34,4 @@ void get_key(char *key, char *username, char *password){
 	else{
         printf("Connect to server error, Please try again later.");
         exit(0);
-    }
+    }*/

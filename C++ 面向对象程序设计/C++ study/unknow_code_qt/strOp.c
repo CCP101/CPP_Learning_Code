@@ -78,7 +78,8 @@ char *replaceWord(char *pre, char *S, char *W, int pos, char *R){  //replace
     int sizeR = strlen(R);  
     int size = sizeS - sizeW + sizeR;  
     int i, j;  
-    while(pre[i++]!='\0'){
+    while(pre[i++]!='\0')
+	{
 		pre[i-1]='\0';
 	}
 	*pre = (char*)malloc(sizeof(char)*size); 
@@ -88,7 +89,8 @@ char *replaceWord(char *pre, char *S, char *W, int pos, char *R){  //replace
     for(i=pos;i<pos+sizeR;i++){
         pre[i] = R[i-pos];
     }  
-    for(pos+sizeR;i<size;i++){
+    for(pos+sizeR;i<size;i++)
+	{
         pre[i]=S[i+sizeW-sizeR];
     }  
 }  

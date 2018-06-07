@@ -3,14 +3,15 @@
 #include<stdlib.h>
 #include<string.h>
 #include<io.h>
-#include "en_decryption.h"
+
 #include "socket.h"
 #include "strOp.h"
-extern char str[32768];
+ char str[32768];
 extern int sign;
-extern char file_name[100];
+ char file_name[100];
 extern int cnt_p[100],s;
 int len,i;
+int sign = 1;
 char txt[1000];
 void clean_str(char *temp){
 	while(temp[i++]!='\0'){
@@ -49,7 +50,7 @@ void menu_choice(){
 			fp=fopen(file_name,"w+");
 			len=strlen(str);
 			char str1[32768];
-			decryption(str,str1,len);
+			
 			fprintf(fp,"%s",str1);
 			fclose(fp);
 			printf("Thanks for using, Your file has been decrypted!\n");
@@ -86,7 +87,7 @@ void menu_choice(){
 			int c;
 			int len=strlen(str);
 			char str1[32768];
-			decryption(str,str1,len);
+			
 			c = count_word(str1);
 			printf("The count of words in this file is: %d\n",c);
 			system("PAUSE");
@@ -99,7 +100,7 @@ void menu_choice(){
 			}
 			int len=strlen(str);
 			char str1[32768],str2[1000],name[100];
-			decryption(str,str1,len);
+			
 			printf("Please input a file name that you want to combine(haven't been encrypted):");
 			scanf("%s",name);
 			if (access(name,0)==-1){
@@ -115,7 +116,7 @@ void menu_choice(){
 			strcat(str1,str2);
 			clean_str(str);
 			printf("The files have combined, New file's contents is:%s\nDon't forget use O to save to file.",str1);
-			encryption(str1,str,len);
+
 			clean_str(str1);
 			clean_str(str2);
 			system("PAUSE");
@@ -129,7 +130,7 @@ void menu_choice(){
 			int c;
 			int len=strlen(str);
 			char str1[32768];
-			decryption(str,str1,len);
+		
 			c = count_character(str1);
 			printf("The count of characters in this file is: %d\n",c);
 			system("PAUSE");
@@ -143,7 +144,7 @@ void menu_choice(){
 			int c;
 			int len=strlen(str);
 			char str1[32768];
-			decryption(str,str1,len);
+
 			c = count_line(str1);
 			printf("The count of lines in this file is: %d\n",c);
 			system("PAUSE");
@@ -156,7 +157,7 @@ void menu_choice(){
 			}
 			int len=strlen(str);
 			char str1[32768],str2[1000];
-			decryption(str,str1,len);
+	
 			printf("\nPlease enter a word:");
 			scanf("%s",str2);
 			search_word(str1,str2);
@@ -170,7 +171,7 @@ void menu_choice(){
 			}
 			int len=strlen(str);
 			char str1[32768],str2[1000];
-			decryption(str,str1,len);
+
 			printf("Look, This is your file!\n\n");
 			printf("%s\n",str1);
 			system("PAUSE");
@@ -185,7 +186,7 @@ void menu_choice(){
 			int c,cnt[100];
 			int len=strlen(str);
 			char str1[32768],str2[1000],str3[1000],strtmp[32768];
-			decryption(str,str1,len);
+
 
 
 			printf("Please input the word that you want to replace:");
@@ -216,7 +217,7 @@ void menu_choice(){
 				strcpy(str1,strtmp);
 				len=strlen(strtmp);
 				printf("The result after replace:\n%s\nDon't forget use O to save to file",str1);
-				encryption(strtmp,str,len);	
+
 
 				clean_str(str1);
 				clean_str(str2);
