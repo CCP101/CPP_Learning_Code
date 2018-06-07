@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27428.2005
+VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ 面向对象程序设计", "C++ 面向对象程序设计\C++ 面向对象程序设计.vcxproj", "{EF16859C-D1B6-4DDC-8BEC-A41A92477B5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "C++ Code", "C++ Code\C++ code.vcxproj", "{EF16859C-D1B6-4DDC-8BEC-A41A92477B5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +26,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {98B18069-917A-4B8C-843F-5C317FD22CEA}
+		SolutionGuid = {FFFDE82A-A5E0-48C6-A7A3-E37BED8FFB66}
 	EndGlobalSection
 EndGlobal
