@@ -3,6 +3,7 @@
 const int Len = 66;
 const int Divs = 6;
 void subdivide(char ar[], int low, int high, int level);
+
 int main()
 {
     char ruler[Len];
