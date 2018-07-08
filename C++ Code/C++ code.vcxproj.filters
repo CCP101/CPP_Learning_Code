@@ -26,7 +26,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 7\ruler.cpp">
+    <ClCompile Include="C++ Primer Plus\Chapter 7\arfupt.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

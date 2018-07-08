@@ -11,7 +11,6 @@ int main()
 {
     using namespace std;
     int code;
-
     cout << "How many lines of code do you need? ";
     cin >> code;
     cout << "Here's Betsy's estimate:\n";
