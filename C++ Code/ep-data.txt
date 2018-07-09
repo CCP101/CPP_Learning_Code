@@ -1,0 +1,7 @@
+Focal length of objective: 2100 mm
+f.l. eyepiece  magnification
+        10.0            210
+        50.0             42
+        90.0             23
+       170.0             12
+       210.0             10

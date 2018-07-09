@@ -1,8 +1,8 @@
 // funtemp.cpp -- using a function template
 #include <iostream>
 // function template prototype
-template <typename T>  // or class T
-void Swap(T &a, T &b);
+template <typename T>  // or class T 不推荐
+void Swap(T &a, T &b); //函数模版C++98之后的标准
 
 int main()
 {

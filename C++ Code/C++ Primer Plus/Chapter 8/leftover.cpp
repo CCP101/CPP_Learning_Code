@@ -5,8 +5,9 @@ char * left(const char * str, int n = 1);
 
 int main()
 {
-     using namespace std;
-    char * trip = "Hawaii!!";   // test value
+    using namespace std;
+	char test_text[] = "Hawaii!!";
+    char * trip = test_text;   // test value
     unsigned long n = 12345678; // test value
     int i;
     char * temp;

@@ -1,8 +1,11 @@
 // inline.cpp -- using an inline function
 #include <iostream>
-
 // an inline function definition
-inline double square(double x) { return x * x; }
+inline double square(double x)
+{
+	return x * x;
+}
+// ÄÚÁªº¯Êı
 int main()
 {
     using namespace std;

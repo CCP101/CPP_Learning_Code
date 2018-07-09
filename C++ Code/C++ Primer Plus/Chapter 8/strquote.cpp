@@ -11,7 +11,6 @@ int main()
     string input;
     string copy;
     string result;
-
     cout << "Enter a string: ";
     getline(cin, input);
     copy = input;
@@ -37,7 +36,6 @@ int main()
 string version1(const string & s1, const string & s2)
 {
     string temp;
-
     temp = s2 + s1 + s2;
     return temp;
 }
@@ -52,8 +50,8 @@ const string & version2(string & s1, const string & s2)   // has side effect
 const string & version3(string & s1, const string & s2)   // bad design
 {
     string temp;
-
     temp = s2 + s1 + s2;
 // unsafe to return reference to local variable
     return temp;
 }
+//cause break down

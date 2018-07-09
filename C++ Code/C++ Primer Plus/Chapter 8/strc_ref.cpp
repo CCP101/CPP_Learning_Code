@@ -28,8 +28,8 @@ int main()
     display(team);
 // use return value as argument
     display(accumulate(team, two));
-    accumulate(accumulate(team, three), four);
-    display(team);
+    display(accumulate(accumulate(team, three), four));
+    //display(team);
 // use return value in assignment
     dup = accumulate(team,five);
     std::cout << "Displaying team:\n";

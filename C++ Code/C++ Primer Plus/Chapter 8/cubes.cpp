@@ -6,7 +6,6 @@ int main ()
 {
     using namespace std;
     double x = 3.0;
-
     cout << cube(x);
     cout << " = cube of " << x << endl;
     cout << refcube(x);
@@ -18,11 +17,10 @@ int main ()
 double cube(double a)
 {
     a *= a * a;
-    return a;
+    return a;   //value of x don`t change
 }
-
 double refcube(double &ra)
 {
     ra *= ra * ra;
-    return ra; 
+    return ra;    //value of x change
 }
