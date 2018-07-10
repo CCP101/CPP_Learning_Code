@@ -2,16 +2,14 @@
 #include <iostream>
 template <typename T>
 void Swap(T &a, T &b);
-
 struct job
 {
     char name[40];
     double salary;
     int floor;
 };
-
 // explicit specialization 
-template <> void Swap<job>(job &j1, job &j2);
+template <> void Swap<job>(job &j1, job &j2);//显示具现化
 void Show(job &j);
 
 int main()
@@ -24,7 +22,6 @@ int main()
     cout << "Using compiler-generated int swapper:\n";
     Swap(i,j);    // generates void Swap(int &, int &)
     cout << "Now i, j = " << i << ", " << j << ".\n";
-
     job sue = {"Susan Yaffee", 73000.60, 7};
     job sidney = {"Sidney Taffee", 78060.72, 9};
     cout << "Before job swapping:\n";
@@ -39,7 +36,7 @@ int main()
 }
 
 template <typename T>
-void Swap(T &a, T &b)    // general version
+void Swap(T &a, T &b)    // general version 整体交换
 {
     T temp;
     temp = a;
@@ -49,7 +46,7 @@ void Swap(T &a, T &b)    // general version
 
 // swaps just the salary and floor fields of a job structure
 
-template <> void Swap<job>(job &j1, job &j2)  // specialization
+template <> void Swap<job>(job &j1, job &j2)  // specialization 部分交换
 {
     double t1;
     int t2;

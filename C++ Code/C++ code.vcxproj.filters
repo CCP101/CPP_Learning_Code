@@ -20,10 +20,8 @@
     <ClInclude Include="C++ Primer Plus\Chapter 4\arraynew.h">
       <Filter>头文件</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 8\twotemps.cpp">
+    <ClInclude Include="C++ Primer Plus\Chapter 9\coordin.h">
       <Filter>源文件</Filter>
-    </ClCompile>
+    </ClInclude>
   </ItemGroup>
 </Project>

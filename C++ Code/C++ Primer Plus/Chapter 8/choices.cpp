@@ -1,13 +1,12 @@
 // choices.cpp -- choosing a template
 #include <iostream>
-
 template<class T>
-T lesser(T a, T b)         // #1
+T lesser(T a, T b)         // #1 模版函数
 {
     return a < b ? a : b;
 }
 
-int lesser (int a, int b)  // #2
+int lesser (int a, int b)  // #2 标准函数
 {
     a = a < 0 ? -a : a;
     b = b < 0 ? -b : b;
@@ -21,12 +20,10 @@ int main()
     int n = -30;
     double x = 15.5;
     double y = 25.9;
-
     cout << lesser(m, n) << endl;       // use #2
     cout << lesser(x, y) << endl;       // use #1 with double
     cout << lesser<>(m, n) << endl;     // use #1 with int
     cout << lesser<int>(x, y)  << endl; // use #1 with int
-
     // cin.get();
     return 0;
 }

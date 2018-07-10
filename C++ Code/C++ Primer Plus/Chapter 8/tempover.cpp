@@ -5,7 +5,7 @@ template <typename T>            // template A
 void ShowArray(T arr[], int n);
 
 template <typename T>            // template B
-void ShowArray(T * arr[], int n);
+void ShowArray(T * arr[], int n);    //更具体，具现化
 
 struct debts
 {
@@ -24,11 +24,9 @@ int main()
         {"Iby Stout", 1800.0}
     };
     double * pd[3]; 
-
 // set pointers to the amount members of the structures in mr_E
     for (int i = 0; i < 3; i++)
         pd[i] = &mr_E[i].amount;
-    
     cout << "Listing Mr. E's counts of things:\n";
 // things is an array of int
     ShowArray(things, 6);  // uses template A
