@@ -6,7 +6,6 @@ int main()
 {
     rect rplace;
     polar pplace;
-
     cout << "Enter the x and y values: ";
     while (cin >> rplace.x >> rplace.y)  // slick use of cin
     {
@@ -16,11 +15,9 @@ int main()
     }
     cout << "Bye!\n";
 // keep window open in MSVC++
-/*
     cin.clear();
     while (cin.get() != '\n')
         continue;
     cin.get();
-*/
     return 0; 
 }

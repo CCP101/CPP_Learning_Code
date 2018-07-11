@@ -16,3 +16,9 @@ int main()
     // cin.get();
     return 0; 
 }
+
+/*
+00F4B000 = &tom, 00F4B004 = &dick, 00F4B008 = &harry
+remote_access() reports the following addresses:
+00F4B000 = &tom, 00F4B014 = &dick, 00F4B010 = &harry
+*/

@@ -149,9 +149,11 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="C++ Primer Plus\Chapter 4\arraynew.h" />
-    <ClInclude Include="C++ Primer Plus\Chapter 9\coordin.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++ Primer Plus\Chapter 9\static.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

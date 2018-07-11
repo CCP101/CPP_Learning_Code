@@ -3,7 +3,6 @@
 #include <iostream>
 // external variable
 double warming = 0.3;       // warming defined
-
 // function prototypes
 void update(double dt);
 void local();

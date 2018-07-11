@@ -1,7 +1,7 @@
 // support.cpp -- use external variable
 // compile with external.cpp
 #include <iostream>
-extern double warming;  // use warming from another file
+extern double warming;  // use warming from external.cpp
 
 // function prototypes
 void update(double dt);

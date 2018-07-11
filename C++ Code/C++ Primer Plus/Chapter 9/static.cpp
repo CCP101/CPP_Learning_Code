@@ -1,7 +1,7 @@
 // static.cpp -- using a static local variable
 #include <iostream>
 // constants
-const int ArSize = 10;
+const int ArSize = 100;
 
 // function prototype
 void strcount(const char * str);
@@ -11,7 +11,6 @@ int main()
     using namespace std;
     char input[ArSize];
     char next;
-
     cout << "Enter a line:\n";
     cin.get(input, ArSize);
     while (cin)
