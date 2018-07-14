@@ -1,4 +1,4 @@
-// stock1.cpp – Stock class implementation with constructors, destructor added
+// stock1.cpp -- Stock class implementation with constructors, destructor added
 #include <iostream>
 #include "stock10.h"
 
@@ -77,7 +77,7 @@ void Stock::update(double price)
     set_tot();
 }
 
-void Stock::show()
+void Stock::show() const
 {
     using std::cout;
     using std::ios_base;

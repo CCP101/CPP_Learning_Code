@@ -13,7 +13,6 @@ int main()
         Stock("Monolithic Obelisks", 130, 3.25),
         Stock("Fleep Enterprises", 60, 6.5)
         };
-
     std::cout << "Stock holdings:\n";
     int st;
     for (st = 0; st < STKS; st++)
