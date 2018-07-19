@@ -8,6 +8,7 @@ int main()
     using std::cout;
     using std::endl;
     Time planning;
+	Time reading(3, 60);
     Time coding(2, 40);
     Time fixing(5, 55);
     Time total;
@@ -15,6 +16,10 @@ int main()
     cout << "planning time = ";
     planning.Show();
     cout << endl;
+
+	cout << "reading time = ";
+	reading.Show();
+	cout << endl;
  
     cout << "coding time = ";
     coding.Show();
@@ -24,7 +29,7 @@ int main()
     fixing.Show();
     cout << endl;
 
-    total = coding.Sum(fixing);
+    total = coding.Sum(fixing,reading);
     cout << "coding.Sum(fixing) = ";
   	total.Show();
     cout << endl;

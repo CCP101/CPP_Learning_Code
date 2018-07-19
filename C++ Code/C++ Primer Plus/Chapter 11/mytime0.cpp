@@ -31,11 +31,11 @@ void Time::Reset(int h, int m)
     minutes = m;
 }
 
-const Time Time::Sum(const Time & t) const
+const Time Time::Sum(const Time & t,  const Time & read) const
 {
     Time sum;
-    sum.minutes = minutes + t.minutes;
-    sum.hours = hours + t.hours + sum.minutes / 60;
+    sum.minutes = minutes + t.minutes+read.minutes;
+    sum.hours = hours + t.hours + read.hours+sum.minutes / 60;
     sum.minutes %= 60;
     return sum;
 }

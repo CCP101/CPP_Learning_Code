@@ -4,7 +4,8 @@
 
 Time::Time()
 {
-    hours = minutes = 0;
+	hours = 0;
+	minutes = 0;
 }
 
 Time::Time(int h, int m )
@@ -56,7 +57,7 @@ Time Time::operator*(double mult) const
     long totalminutes = hours * mult * 60 + minutes * mult;
     result.hours = totalminutes / 60;
     result.minutes = totalminutes % 60;
-    return result;
+    return result;//对乘法的处理操作
 }
 
 void Time::Show() const

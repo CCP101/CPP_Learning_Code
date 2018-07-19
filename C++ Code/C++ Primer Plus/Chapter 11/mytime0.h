@@ -13,7 +13,7 @@ public:
     void AddMin(int m);
     void AddHr(int h);
     void Reset(int h = 0, int m = 0);
-    const Time Sum(const Time & t) const;
+    const Time Sum(const Time & t,const Time & read) const;
     void Show() const;
 };
 #endif

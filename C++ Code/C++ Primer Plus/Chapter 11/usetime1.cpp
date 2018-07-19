@@ -5,7 +5,7 @@
 
 int main()
 {
-    using std::cout;
+    using std::cout;//避免导入整个库
     using std::endl;
     Time planning;
     Time coding(2, 40);

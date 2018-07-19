@@ -17,8 +17,11 @@ public:
     Time operator+(const Time & t) const;
     Time operator-(const Time & t) const;
     Time operator*(double n) const;
+	//友元
     friend Time operator*(double m, const Time & t)
-        { return t * m; }   // inline definition
+        {
+		return t * m; //不违反OOP精神，更换左值修改运算，重新调用重载后的operator*
+	    }   // inline definition
     friend std::ostream & operator<<(std::ostream & os, const Time & t);
 
 };

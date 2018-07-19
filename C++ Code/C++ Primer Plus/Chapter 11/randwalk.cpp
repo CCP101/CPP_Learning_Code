@@ -25,7 +25,7 @@ int main()
         while (result.magval() < target)
         {
             direction = rand() % 360;
-            step.reset(dstep, direction, POL);
+            step.reset(dstep, direction,VECTOR::Vector::POL);//正确的调用方式
             result = result + step;
             steps++;
         }

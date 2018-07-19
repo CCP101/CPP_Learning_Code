@@ -107,6 +107,7 @@ namespace VECTOR
 
     Vector::~Vector()    // destructor
     {
+		cout << "Program finsh!";
     }
 
     void Vector::polar_mode()    // set to polar mode

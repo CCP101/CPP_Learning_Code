@@ -31,10 +31,10 @@ int main()
     diff.Show();
     cout << endl;
 
-    adjusted = total * 1.5;      // use operator+()
+    adjusted = total * 2;      // use operator+()
     cout << "adjusted work time = ";
     adjusted.Show();
     cout << endl;
-    // std::cin.get();    
+    std::cin.get();    
     return 0;
 }
