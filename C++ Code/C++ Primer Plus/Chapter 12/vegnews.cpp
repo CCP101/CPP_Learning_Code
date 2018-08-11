@@ -47,3 +47,32 @@ void callme2(StringBad sb)
     cout << "String passed by value:\n";
     cout << "    \"" << sb << "\"\n";
 }
+
+/*
+Starting an inner block.
+1: "Celery Stalks at Midnight" object created
+2: "Lettuce Prey" object created
+3: "Spinach Leaves Bowl for Dollars" object created
+headline1: Celery Stalks at Midnight
+headline2: Lettuce Prey
+sports: Spinach Leaves Bowl for Dollars
+String passed by reference:
+"Celery Stalks at Midnight"
+headline1: Celery Stalks at Midnight
+String passed by value:
+"Lettuce Prey"
+"Lettuce Prey" object deleted, 2 left
+headline2: нннннннннннннннн
+Initialize one object to another:
+sailor: Spinach Leaves Bowl for Dollars
+Assign one object to another:
+3: "C++" default object created
+knot: Celery Stalks at Midnight
+Exiting the block.
+"Celery Stalks at Midnight" object deleted, 2 left
+"Spinach Leaves Bowl for Dollars" object deleted, 1 left
+"ннннннннннннннннннннннннннннннннннннt" object deleted, 0 left
+
+
+ГЬађЛсЗУЮЪвьГЃФкДцЕижЗ
+*/
