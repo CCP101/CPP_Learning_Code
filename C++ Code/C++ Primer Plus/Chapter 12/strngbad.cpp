@@ -5,7 +5,6 @@ using std::cout;
 
 // initializing static class member 不能在类声明中初始化静态成员变量
 int StringBad::num_strings = 0;
-
 // class methods
 
 // construct StringBad from C string

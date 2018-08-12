@@ -12,9 +12,7 @@ int main()
     String name;
     cout <<"Hi, what's your name?\n>> ";
     cin >> name;
-
-    cout << name << ", please enter up to " << ArSize
-         << " short sayings <empty line to quit>:\n";
+    cout << name << ", please enter up to " << ArSize<< " short sayings <empty line to quit>:\n";
     String sayings[ArSize];     // array of objects
     char temp[MaxLen];          // temporary string storage
     int i;
@@ -36,7 +34,6 @@ int main()
         cout << "Here are your sayings:\n";
         for (i = 0; i < total; i++)
             cout << sayings[i][0] << ": " << sayings[i] << endl;
-
         int shortest = 0;
         int first = 0;
         for (i = 1; i < total; i++)
@@ -48,8 +45,7 @@ int main()
         }
         cout << "Shortest saying:\n" << sayings[shortest] << endl;;
         cout << "First alphabetically:\n" << sayings[first] << endl;
-        cout << "This program used "<< String::HowMany() 
-             << " String objects. Bye.\n";
+        cout << "This program used "<< String::HowMany()  << " String objects. Bye.\n";
     }
     else
         cout << "No input! Bye.\n";

@@ -12,9 +12,7 @@ int main()
     String name;
     cout <<"Hi, what's your name?\n>> ";
     cin >> name;
-
-    cout << name << ", please enter up to " << ArSize
-         << " short sayings <empty line to quit>:\n";
+    cout << name << ", please enter up to " << ArSize<< " short sayings <empty line to quit>:\n";
     String sayings[ArSize];
     char temp[MaxLen];               // temporary string storage
     int i;
@@ -36,7 +34,6 @@ int main()
         cout << "Here are your sayings:\n";
         for (i = 0; i < total; i++)
             cout << sayings[i] << "\n";
-
     // use pointers to keep track of shortest, first strings
         String * shortest = &sayings[0]; // initialize to first object
         String * first = &sayings[0];
@@ -49,7 +46,6 @@ int main()
         }
         cout << "Shortest saying:\n" << * shortest << endl;
         cout << "First alphabetically:\n" << * first << endl;
-
         srand(time(0));
         int choice = rand() % total; // pick index at random
     // use new to create, initialize new String object
