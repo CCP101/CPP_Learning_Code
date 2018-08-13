@@ -14,7 +14,7 @@ int main ( void )
         cout << ": hasn't a table.\n";
     player2.Name();
     if (player2.HasTable())
-        cout << ": has a table";
+        cout << ": has a table"; 
     else
         cout << ": hasn't a table.\n";
     // std::cin.get();

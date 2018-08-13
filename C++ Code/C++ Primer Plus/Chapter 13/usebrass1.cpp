@@ -7,7 +7,6 @@ int main()
 {
     using std::cout;
     using std::endl;
-
     Brass Piggy("Porcelot Pigg", 381299, 4000.00);
     BrassPlus Hoggy("Horatio Hogg", 382288, 3000.00);
     Piggy.ViewAcct();
