@@ -10,7 +10,6 @@ int main()
    using std::cin;
    using std::cout;
    using std::endl;
-
    Brass * p_clients[CLIENTS];
    std::string temp;
    long tempnum;

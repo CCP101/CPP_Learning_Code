@@ -148,14 +148,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="C++ Primer Plus\Chapter 12\string1.h" />
+    <ClInclude Include="C++ Primer Plus\Chapter 13\brass.h" />
     <ClInclude Include="C++ Primer Plus\Chapter 4\arraynew.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 12\sayings2.cpp" />
-    <ClCompile Include="C++ Primer Plus\Chapter 12\string1.cpp" />
+    <ClCompile Include="C++ Primer Plus\Chapter 13\brass.cpp" />
+    <ClCompile Include="C++ Primer Plus\Chapter 13\usebrass2.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

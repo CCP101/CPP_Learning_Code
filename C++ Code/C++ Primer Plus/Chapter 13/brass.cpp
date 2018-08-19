@@ -4,13 +4,11 @@
 using std::cout;
 using std::endl;
 using std::string;
-
 // formatting stuff
 typedef std::ios_base::fmtflags format;
 typedef std::streamsize precis;
 format setFormat();
 void restore(format f, precis p);
-
 // Brass methods
 
 Brass::Brass(const string & s, long an, double bal)
@@ -24,7 +22,7 @@ void Brass::Deposit(double amt)
 {
     if (amt < 0)
         cout << "Negative deposit not allowed; "
-             << "deposit is cancelled.\n";
+                << "deposit is cancelled.\n";
     else
         balance += amt;
 }
@@ -34,11 +32,9 @@ void Brass::Withdraw(double amt)
     // set up ###.## format
     format initialState = setFormat();
     precis prec = cout.precision(2);
-
     if (amt < 0)
         cout << "Withdrawal amount must be positive; "
-
-             << "withdrawal canceled.\n";
+                << "withdrawal canceled.\n";
     else if (amt <= balance)
         balance -= amt;
     else
