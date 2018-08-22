@@ -20,15 +20,12 @@
     <ClInclude Include="C++ Primer Plus\Chapter 4\arraynew.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="C++ Primer Plus\Chapter 13\brass.h">
+    <ClInclude Include="C++ Primer Plus\Chapter 14\studentc.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer Plus\Chapter 13\brass.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C++ Primer Plus\Chapter 13\usebrass2.cpp">
+    <ClCompile Include="C++ Primer Plus\Chapter 14\studentc.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

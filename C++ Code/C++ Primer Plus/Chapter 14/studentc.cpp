@@ -13,22 +13,18 @@ double Student::Average() const
     else
         return 0;
 }
-
 const string & Student::Name() const
 {
     return name;
 }
-
 double & Student::operator[](int i)
 {
     return scores[i];         // use valarray<double>::operator[]()
 }
-
 double Student::operator[](int i) const
 {
     return scores[i];
 }
-
 // private method
 ostream & Student::arr_out(ostream & os) const
 {
