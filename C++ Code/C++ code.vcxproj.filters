@@ -18,9 +18,4 @@
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="数据结构\102_5_1.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
 </Project>
