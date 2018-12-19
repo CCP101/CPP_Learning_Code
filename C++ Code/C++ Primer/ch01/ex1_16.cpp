@@ -9,3 +9,4 @@ int main()
     cout << "Sum is: " << sum << endl;
     return 0;
 }
+//windows:Ctrl+z enter

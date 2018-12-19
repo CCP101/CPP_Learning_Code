@@ -9,7 +9,8 @@ using std::endl;
 auto sum(int lo, int hi)
 {
     int sum = 0;
-    while (lo < hi) sum += lo++;
+    while (lo < hi) 
+		sum += lo++;
     return sum;
 }
 
