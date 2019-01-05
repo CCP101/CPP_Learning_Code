@@ -1,0 +1,40 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceFolder}",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/x86_64-w64-mingw32",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/backward",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include",
+                "D:/Programming_environment_IDE/TDM-GCC-64/include/include",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include-fixed"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "__GNUC__=7",
+                "__cdecl=__attribute__((__cdecl__))"
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceFolder}",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/x86_64-w64-mingw32",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/backward",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/include/include",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include-fixed"
+                ]
+            },
+            "limitSymbolsToIncludedHeaders": true,
+            "databaseFilename": "",
+            "compilerPath": "D:/Programming_environment_IDE/TDM-GCC-64/bin/gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}
