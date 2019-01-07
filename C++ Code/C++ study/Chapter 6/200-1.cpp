@@ -29,8 +29,10 @@ public :
 		cout << a << " " << b1.b << " " << c;
 	}
 };
-void main()
+int main()
 {
 	C c1(3,6,9);
 	c1.show();
+	system("pause");
+	return 0;
 }
