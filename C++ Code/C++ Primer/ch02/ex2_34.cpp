@@ -14,7 +14,11 @@ int main()
     const auto f = ci; // deduced type of ci is int; f has type const int
     auto &g = ci; // g is a const int& that is bound to ci
 
-    a = 42; b = 42; c = 42; *d = 42; e = &c;
+    a = 42; 
+	b = 42; 
+	c = 42; 
+	*d = 42; 
+	e = &c;
 
     return 0;
 }

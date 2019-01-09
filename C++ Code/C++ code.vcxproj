@@ -105,7 +105,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>D:\Work Station\Visual Studio\C++ 面向对象程序设计\C++ 面向对象程序设计\C++ Code\C++ Primer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\Work Station\Visual Studio\C_C++_Learning_Code\C_C++_Learning_Code\C++ Code\C++ Primer\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,7 +152,7 @@
     <ClInclude Include="C++ Primer\include\Sales_item.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer\ch02\ex2_10.cpp" />
+    <ClCompile Include="C++ Primer\ch02\ex2_42_3.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
