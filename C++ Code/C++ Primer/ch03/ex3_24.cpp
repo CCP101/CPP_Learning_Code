@@ -1,7 +1,10 @@
 #include <iostream>
 #include <vector>
 
-using std::vector; using std::cout; using std::endl; using std::cin;
+using std::vector; 
+using std::cout; 
+using std::endl; 
+using std::cin;
 
 int main()
 {

@@ -15,7 +15,8 @@ int main()
         if (str1.size() == str2.size())
             cout << "The two strings have the same length." << endl;
         else
-            cout << "The longer string is " << ((str1.size() > str2.size()) ? str1 : str2) << endl;
+            cout << "The longer string is " 
+            << ((str1.size() > str2.size()) ? str1 : str2) << endl;
     }
 
     return 0;

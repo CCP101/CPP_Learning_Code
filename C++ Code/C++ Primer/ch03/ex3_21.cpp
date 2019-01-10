@@ -1,7 +1,3 @@
-//
-//Redo the first exercise from § 3.3.3 (p. 105) using iterators.
-//
-
 #include <vector>
 #include <iterator>
 #include <string>
