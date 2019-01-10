@@ -2,7 +2,9 @@
 #include <iostream>
 #include <iterator>
 
-using std::vector; using std::iterator; using std::cout;
+using std::vector; 
+using std::iterator; 
+using std::cout;
 
 int main()
 {
