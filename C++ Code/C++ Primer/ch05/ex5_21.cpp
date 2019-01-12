@@ -1,11 +1,8 @@
-//  @Brief   Revise the program from the exercise in 5.5.1(p. 191)
-//           so that it looks only for duplicated words that start with an uppercase letter. 
-//  @See     Exercise 5.20
-//  @frank67 Rewrite using the 'continue' statement. See #250
-
 #include <iostream>
-using std::cin; using std::cout; using std::endl;
 #include <string>
+using std::cin;
+using std::cout;
+using std::endl;
 using std::string;
 
 int main()

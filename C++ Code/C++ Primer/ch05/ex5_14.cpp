@@ -1,7 +1,11 @@
 #include <iostream>
 #include <string>
 
-using std::cout; using std::cin; using std::endl; using std::string; using std::pair;
+using std::cout; 
+using std::cin; 
+using std::endl; 
+using std::string; 
+using std::pair;
 
 int main()
 { 

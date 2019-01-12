@@ -8,7 +8,8 @@ bool is_prefix(vector<int> const& lhs, vector<int> const& rhs)
     if(lhs.size() > rhs.size())
         return is_prefix(rhs, lhs);
     for(unsigned i = 0; i != lhs.size(); ++i)
-        if(lhs[i] != rhs[i]) return false;
+        if(lhs[i] != rhs[i]) 
+            return false;
     return true;
 }
 
