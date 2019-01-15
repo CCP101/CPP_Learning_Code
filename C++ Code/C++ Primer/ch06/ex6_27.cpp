@@ -4,7 +4,8 @@
 int sum(std::initializer_list<int> const& il)
 {
     int sum = 0;
-    for (auto i : il) sum += i;
+    for (auto i : il) 
+        sum += i;
     return sum;
 }
 

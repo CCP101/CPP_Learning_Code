@@ -15,3 +15,5 @@ int func()
     while (n > 1) ret *= n--;
     return ret;
 }
+
+

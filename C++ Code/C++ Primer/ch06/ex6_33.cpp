@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
-using std::vector; using std::cout;
+using std::vector; 
+using std::cout;
 using Iter = vector<int>::const_iterator;
 
 void print(Iter first, Iter last)

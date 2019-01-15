@@ -1,5 +1,8 @@
 #include <iostream>
-using std::cout; using std::endl; using std::begin; using std::end;
+using std::cout; 
+using std::endl; 
+using std::begin; 
+using std::end;
 
 void print(const int *pi)
 {
@@ -10,7 +13,8 @@ void print(const int *pi)
 void print(const char *p)
 {
     if (p)
-        while (*p) cout << *p++;
+        while (*p) 
+			cout << *p++;
     cout << endl;
 }
 
