@@ -1,15 +1,13 @@
-//
 //  main.cpp
 //  Test
-//
-//  Created by pezy on 14/10/30.
-//
 // To turn off debugging, uncomment the following line, or compile the program with '-D NDEBUG' switch
 //#define NDEBUG 
 
 #include <iostream>
 #include <vector>
-using std::vector; using std::cout; using std::endl;
+using std::vector; 
+using std::cout; 
+using std::endl;
 
 void printVec(vector<int> &vec)
 {

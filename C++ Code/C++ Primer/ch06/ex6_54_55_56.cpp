@@ -1,5 +1,3 @@
-// @Yue Wang
-//
 // Exercise 6.54:
 // Write a declaration for a function that takes two int
 // parameters and returns an int, and declare a vector whose
@@ -17,7 +15,8 @@
 #include <iostream>
 #include <string>
 #include <vector>
-using std::vector; using std::cout;
+using std::vector; 
+using std::cout;
 
 //
 // @brief Exercise 6.54
