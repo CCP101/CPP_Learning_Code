@@ -1,12 +1,9 @@
-//
-//  ex7_01.cpp
-//  Exercise 7.1
-//
-//  Created by pezy on 14/10/30.
-//
 #include <iostream>
 #include <string>
-using std::cin; using std::cout; using std::endl; using std::string;
+using std::cin; 
+using std::cout; 
+using std::endl; 
+using std::string;
 
 struct Sales_data
 {
@@ -43,3 +40,4 @@ int main()
     }
     return 0;
 }
+
