@@ -1,12 +1,3 @@
-//
-//  ex7_26.h
-//  Exercise 7.26
-//
-//  Created by pezy on 11/14/14.
-//
-//  @See ex7_21.h
-//  @Add inline member function "Sales_data::avg_pric" 
-
 #ifndef CP5_ex7_26_h
 #define CP5_ex7_26_h
 

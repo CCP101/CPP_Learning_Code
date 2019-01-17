@@ -1,10 +1,3 @@
-//
-//  ex7_13.cpp
-//  Exercise 7.13
-//
-//  Created by pezy on 11/9/14.
-//
-
 #include "ex7_12.h"
 
 int main()
@@ -15,10 +8,12 @@ int main()
         std::istream &is = std::cin;
         while (is) {
             Sales_data trans(is);
-            if (!is) break;
+            if (!is) 
+                break;
             if (total.isbn() == trans.isbn())
                 total.combine(trans);
-            else {
+            else 
+            {
                 print(std::cout, total) << std::endl;
                 total = trans;
             }

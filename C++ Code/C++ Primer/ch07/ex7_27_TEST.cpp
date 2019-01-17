@@ -1,10 +1,3 @@
-//
-//  ex7_27_TEST.cpp
-//  Test of Exercise 7.27
-//
-//  Created by pezy on 11/14/14.
-//
-
 #include "ex7_27.h"
 
 int main()

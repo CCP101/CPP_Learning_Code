@@ -1,10 +1,3 @@
-//
-//  ex7_11.cpp
-//  Exercise 7.11
-//
-//  Created by pezy on 11/9/14.
-//
-
 #include "ex7_11.h"
 
 int main()

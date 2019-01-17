@@ -1,10 +1,3 @@
-//
-//  ex7_24.cpp
-//  Exercise 7.24
-//
-//  Created by pezy on 11/14/14.
-//
-
 #ifndef CP5_ex7_24_h
 #define CP5_ex7_24_h
 

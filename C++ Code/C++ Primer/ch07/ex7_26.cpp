@@ -1,12 +1,3 @@
-//
-//  ex7_26.cpp
-//  Exercise 7.26
-//
-//  Created by pezy on 11/9/14.
-//
-//  @Brief implementation of class Sales_data
-//  @See ex7_26.h
-
 #include "ex7_26.h"
 
 // member functions.
