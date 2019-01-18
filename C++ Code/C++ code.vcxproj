@@ -152,9 +152,6 @@
     <ClInclude Include="C++ Primer\ch07\ex7_11.h" />
     <ClInclude Include="C++ Primer\include\Sales_item.h" />
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer\ch07\ex7_11.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

@@ -19,24 +19,21 @@
                 "'${file}'",
                 "--std=c++11",
                 "-o",
-                "'${fileDirname}\\${fileBasenameNoExtension}.exe'"
-
+                "'${fileDirname}\\${fileBasenameNoExtension}.exe'",
+                "-finput-charset=UTF-8", //输入编译器文本编码 默认为UTF-8
+                "-fexec-charset=GBK" //编译器输出文本编码 自行选择
             ],
-
             "type": "shell",
-
             "group": {
                 "kind": "build",
                 "isDefault": true
             },
-
             "presentation": {
                 "echo": true,
                 "reveal": "always", 
                  "focus": false,
                  "panel": "shared" 
             },
-
             "problemMatcher": {
                 "owner": "cpp",
                 "fileLocation": [

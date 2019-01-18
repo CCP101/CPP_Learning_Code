@@ -41,7 +41,22 @@
         "system_error": "cpp",
         "type_traits": "cpp",
         "typeinfo": "cpp",
-        "utility": "cpp"
+        "utility": "cpp",
+        "array": "cpp",
+        "cstring": "cpp",
+        "ctime": "cpp",
+        "deque": "cpp",
+        "unordered_map": "cpp",
+        "vector": "cpp",
+        "fstream": "cpp",
+        "functional": "cpp",
+        "iomanip": "cpp",
+        "numeric": "cpp",
+        "sstream": "cpp",
+        "tuple": "cpp",
+        "ios": "cpp"
     },
     "python.pythonPath": "D:\\Programming_environment_IDE\\Python36\\python.exe",
+    "files.autoGuessEncoding": true,
+    "C_Cpp.errorSquiggles": "Disabled",
 }

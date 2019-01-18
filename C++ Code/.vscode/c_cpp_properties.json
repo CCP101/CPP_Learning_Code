@@ -5,12 +5,13 @@
             "intelliSenseMode": "clang-x64",
             "includePath": [
                 "${workspaceFolder}",
-                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++",
-                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/x86_64-w64-mingw32",
-                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/backward",
-                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/tr1",
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
                 "D:/Programming_environment_IDE/TDM-GCC-64/include/include",
-                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include-fixed"
+                "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"
             ],
             "defines": [
                 "_DEBUG",
@@ -21,12 +22,13 @@
             "browse": {
                 "path": [
                     "${workspaceFolder}",
-                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++",
-                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/x86_64-w64-mingw32",
-                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include/c++/backward",
-                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/x86_64-w64-mingw32",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/backward",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include/c++/tr1",
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include",
                     "D:/Programming_environment_IDE/TDM-GCC-64/include/include",
-                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0include-fixed"
+                    "D:/Programming_environment_IDE/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/5.1.0/include-fixed"
                 ]
             },
             "limitSymbolsToIncludedHeaders": true,

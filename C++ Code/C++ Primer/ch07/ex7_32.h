@@ -1,11 +1,3 @@
-//
-//  ex7_32.h
-//  Exercise 7.32 
-//
-//  Created by pezy on 11/18/14.
-//
-//  @See ex7_27.h
-
 #ifndef CP5_ex7_32_h
 #define CP5_ex7_32_h
 
@@ -38,12 +30,19 @@ public:
     inline Screen& set(char c);
     inline Screen& set(pos r, pos c, char ch);
 
-    const Screen& display(std::ostream &os) const { do_display(os); return *this; }
-    Screen& display(std::ostream &os) { do_display(os); return *this; }
+    const Screen& display(std::ostream &os) const 
+    { 
+        do_display(os); 
+        return *this; 
+    }
+    Screen& display(std::ostream &os) 
+    { 
+        do_display(os); 
+        return *this; 
+    }
 
 private:
     void do_display(std::ostream &os) const { os << contents; }
-
 private:
     pos cursor = 0;
     pos height = 0, width = 0;
@@ -52,7 +51,8 @@ private:
 
 inline void Window_mgr::clear(ScreenIndex i)
 { 
-    if (i >= screens.size()) return;    // judge for out_of_range.
+    if (i >= screens.size()) 
+        return;    // judge for out_of_range.
     Screen &s = screens[i];
     s.contents = std::string(s.height * s.width, ' ');
 }
