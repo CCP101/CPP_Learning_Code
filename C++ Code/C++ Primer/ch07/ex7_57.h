@@ -1,10 +1,3 @@
-//
-//  ex7_57.h
-//  Exercise 7.57
-//
-//  Created by pezy on 11/25/14.
-//
-
 #ifndef CP5_ex7_57_h
 #define CP5_ex7_57_h
 

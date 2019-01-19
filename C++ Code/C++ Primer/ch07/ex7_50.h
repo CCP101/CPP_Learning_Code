@@ -1,12 +1,3 @@
-//
-//  ex7_50.cpp
-//  Exercise 7.50
-//
-//  Created by pezy on 11/24/14.
-//
-//  @See ex7_22.h
-//  @Add constructors should be explicit
-
 #ifndef CP5_ex7_50_h
 #define CP5_ex7_50_h
 

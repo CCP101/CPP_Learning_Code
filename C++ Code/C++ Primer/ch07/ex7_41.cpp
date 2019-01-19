@@ -1,12 +1,3 @@
-//
-//  ex7_41.cpp
-//  Exercise 7.41
-//
-//  Created by pezy on 11/20/14.
-//
-//  @Brief implementation of class Sales_data
-//  @See ex7_41.h
-
 #include "ex7_41.h"
 
 // constructor

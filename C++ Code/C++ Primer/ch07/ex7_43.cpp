@@ -1,10 +1,3 @@
-//
-//  ex7_43.cpp
-//  Exercise 7.43
-//
-//  Created by pezy on 11/20/14.
-//
-
 #include <vector> 
 
 class NoDefault {
@@ -22,7 +15,6 @@ private:
 int main()
 {
     C c;
-    
     std::vector<C> vec(10); 
     return 0;
 }

@@ -1,13 +1,3 @@
-//
-//  ex7_41.h
-//  Exercise 7.41 
-//
-//  Created by pezy on 11/20/14.
-//
-//  @See ex7_26.h
-//  @Add 1. use delegating constructors
-//       2. add a statement to the body of each of the constructors that prints a message whether it is executed. 
-
 #ifndef CP5_ex7_41_h
 #define CP5_ex7_41_h
 
