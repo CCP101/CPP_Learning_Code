@@ -1,19 +1,11 @@
-//
-//  ex8_07.cpp
-//  Exercise 8.7
-//
-//  Created by pezy on 11/28/14.
-//
-//  @Brief  Revise the bookstore program from the previous section to write its output to a file.
-//          Pass the name of that file as a second argument to main.
-//  @See    ex8_06.cpp
-//  @Run    give a parameter: "../data/book.txt ../data/out.txt"
-
 #include <fstream>
 #include <iostream>
 
 #include "../ch07/ex7_26.h"
-using std::ifstream; using std::ofstream; using std::endl; using std::cerr;
+using std::ifstream; 
+using std::ofstream; 
+using std::endl; 
+using std::cerr;
 
 int main(int argc, char **argv)
 {

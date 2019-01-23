@@ -1,21 +1,18 @@
-//
-//  ex8_13.cpp
-//  Exercise 8.13
-//
-//  Created by pezy on 11/29/14.
-//
-//  @Brief  Rewrite the phone number program from this section to read from
-//          a named file rather than from cin.
-//  @See    ex8_11.cpp
-
 #include <iostream>
 #include <sstream>
 #include <fstream>
 #include <string>
 #include <vector>
 
-using std::vector; using std::string; using std::cin; using std::istringstream;
-using std::ostringstream; using std::ifstream; using std::cerr; using std::cout; using std::endl;
+using std::vector; 
+using std::string; 
+using std::cin; 
+using std::istringstream;
+using std::ostringstream; 
+using std::ifstream; 
+using std::cerr; 
+using std::cout; 
+using std::endl;
 using std::isdigit;
 
 struct PersonInfo {

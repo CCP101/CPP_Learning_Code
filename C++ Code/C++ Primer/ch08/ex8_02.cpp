@@ -1,12 +1,5 @@
-//
-//  ex8_02.cpp
-//  Exercise 8.2
-//
-//  Created by pezy on 11/27/14.
-//
-//  @Brief  Test your function by calling it, passing cin as an argument
-
 #include <iostream>
+#include <string>
 using std::istream;
 
 istream& func(istream &is)
