@@ -1,16 +1,12 @@
-// @author @shbling @Yue Wang
-//
-// Exercise 9.13:
-// How would you initialize a vector<double> from a list<int>?
-// From a vector<int>?
-// Write code to check your answers.
-//
 #include <iostream>
 #include <string>
 #include <vector>
 #include <list>
 
-using std::list; using std::vector; using std::cout; using std::endl;
+using std::list; 
+using std::vector; 
+using std::cout; 
+using std::endl;
 
 int main()
 {

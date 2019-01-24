@@ -23,7 +23,8 @@ void ReadFileToVec(const string& fileName, vector<string>& vec)
 int main()
 {
     vector<string> vec;
-    ReadFileToVec("D:\\Work Station\\Visual Studio\\C_C++_Learning_Code\\C_C++_Learning_Code\\C++ Code\\C++ Primer\\data\\book.txt", vec);
+	string location = "D:\\Work Station\\Visual Studio\\C_C++_Learning_Code\\C_C++_Learning_Code\\C++ Code\\C++ Primer\\data\\book.txt";
+    ReadFileToVec(location, vec);
     for (const auto &str : vec)
         cout << str << endl;
     return 0;
