@@ -1,16 +1,12 @@
-//
-//  ex9_20.cpp
-//  Exercise 9.20
-//
-//  Created by pezy on 12/3/14.
-//
-//  @Brief  Write a program to copy elements from a list<int> into two deques.
-//          The even-valued elements should go into one deque and the odd ones into the other.
-
 #include <iostream>
 #include <deque>
 #include <list>
-using std::deque; using std::list; using std::cout; using std::cin; using std::endl;
+
+using std::deque; 
+using std::list; 
+using std::cout; 
+using std::cin; 
+using std::endl;
 
 int main()
 {
