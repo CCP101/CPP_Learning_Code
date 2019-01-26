@@ -1,15 +1,3 @@
-//
-//  ex9_27.cpp
-//  Exercise 9.27
-//
-//  Created by pezy on 12/3/14.
-//
-//  @Brief  Write a program to find and remove the odd-valued
-//          elements in a forward_list<int>.
-//
-//  @Refactored by @Yue Wang Jun 2015, Oct 2015
-//
-
 #include <iostream>
 #include <forward_list>
 

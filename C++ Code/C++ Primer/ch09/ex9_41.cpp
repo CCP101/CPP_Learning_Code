@@ -1,11 +1,3 @@
-//
-//  ex9_41.cpp
-//  Exercise 9.41
-//
-//  Created by pezy on 12/4/14.
-//
-//  @Brief  Write a program that initializes a string from a vector<char>.
-
 #include <iostream>
 #include <vector>
 #include <string>

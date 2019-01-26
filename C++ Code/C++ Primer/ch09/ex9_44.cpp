@@ -1,15 +1,3 @@
-//
-//  ex9_44.cpp
-//  Exercise 9.44
-//
-//  Created by XDXX on 4/17/15.
-//
-//  @Brief  Rewrite the previous function using an index and replace.
-//  @See    9.43
-//
-//  Refactored by Yue Wang Oct, 2015
-//
-
 #include <iostream>
 #include <string>
 

@@ -1,16 +1,3 @@
-//
-//  ex9_46.cpp
-//  Exercise 9.46
-//
-//  Created by pezy on 12/5/14.
-//
-//  @Brief  Rewrite the previous exercise using a position and length to manage the strings.
-//          This time use only the insert function.
-//  @See    9.45
-//
-//  Refactored by Yue Wang Oct, 2015
-//
-
 #include <iostream>
 #include <string>
 

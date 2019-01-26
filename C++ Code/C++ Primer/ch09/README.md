@@ -266,7 +266,16 @@ If the container holds elements of a class type and resize adds elements
 we **must supply an initializer** or the element type must have a **default constructor**.
 
 ## Exercise 9.31 [use list](ex9_31_1.cpp) | [use forward_list](ex9_31_2.cpp)
-## [Exercise 9.32](ex9_32.cpp)
+## Exercise 9.32
+>In the program on page 354 would it be legal to write the call to insert as follows?If not, why not?
+```cpp
+iter = vi.insert(iter, *iter++);
+```
+
+the statement is illegal, because as said in Standard [5.2.2] :"The order of evaluation of arguments is unspecified."As a result, after entering function insert,iter could be its original value or original value + 1 or even anything else,depending on how compiler implemented.  
+
+Discuss    https://github.com/Mooophy/Cpp-Primer/issues/125
+
 ## [Exercise 9.33](ex9_33.cpp)
 ## [Exercise 9.34](ex9_34.cpp)
 
