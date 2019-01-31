@@ -1,13 +1,3 @@
-//
-//  ex10_22.cpp
-//  Exercise 10.22
-//
-//  Created by pezy on 12/11/14.
-//  Updated by pezy on 10/12/15.
-//
-//  @Brief  Rewrite the program to count words of size 6 or less using
-//          functions in place of the lambdas.
-
 #include <iostream>
 #include <vector>
 #include <string>

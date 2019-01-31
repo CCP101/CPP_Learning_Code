@@ -1,17 +1,14 @@
-//
-//  ex10_07.cpp
-//  Exercise 10.7
-//
-//  Created by pezy on 12/9/14.
-//
-//  @Brief  Determine if there are any errors in the following programs and, if so, correct the error(s)
-
 #include <iostream>
 #include <vector>
 #include <list>
 #include <algorithm>
 
-using std::vector; using std::cout; using std::endl; using std::list; using std::cin; using std::fill_n;
+using std::vector; 
+using std::cout; 
+using std::endl; 
+using std::list; 
+using std::cin; 
+using std::fill_n;
 
 template<typename Sequence>
 void print(Sequence const& seq)
