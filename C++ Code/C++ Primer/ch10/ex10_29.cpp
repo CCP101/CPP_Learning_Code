@@ -1,12 +1,3 @@
-//
-//  ex10_29.cpp
-//  Exercise 10.29
-//
-//  Created by pezy on 12/13/14.
-//
-//  Write a program using stream iterators to read a text file into a vector of strings.
-
-
 #include <iostream>
 #include <fstream>
 #include <vector>

@@ -1,13 +1,3 @@
-//
-//  ex10_31.cpp
-//  Exercise 10.31
-//
-//  Created by pezy on 12/13/14.
-//
-//  Update the program from the previous exercise so that it prints only the unique elements.
-//  Your program should use unqiue_copy
-
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
