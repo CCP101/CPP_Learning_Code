@@ -1,22 +1,3 @@
-/***************************************************************************
-*  @file       The code is for the exercises in C++ Primmer 5th Edition
-*  @author     Yue Wang
-*  @date       22  DEC 2013
-*                  Oct 2015
-*  @remark
-***************************************************************************/
-//
-// Exercise 12.6:
-// Write a function that returns a dynamically allocated vector of ints.
-// Pass that vector to another function that reads the standard input to
-// give values to the elements. Pass the vector to another function to print
-// the values that were read.
-// Remember to delete the vector at the appropriate time.
-//
-// Exercise 12.7:
-// Redo the previous exercise, this time using shared_ptr.
-//
-
 #include <iostream>
 #include <vector>
 #include <memory>
@@ -36,7 +17,8 @@ auto populate(Sptr vec)
 
 auto print(Sptr vec) -> std::ostream&
 {
-    for (auto i : *vec) std::cout << i << " ";
+    for (auto i : *vec) 
+		std::cout << i << " ";
     return std::cout;
 }
 
@@ -44,6 +26,5 @@ int main()
 {
     auto vec = populate(make_with_shared_ptr());
     print(vec) << std::endl;
-
     return 0;
 }

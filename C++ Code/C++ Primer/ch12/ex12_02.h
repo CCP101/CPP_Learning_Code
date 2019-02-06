@@ -1,18 +1,11 @@
-//
-//  ex12_02.cpp
-//  Exercise 12.2
-//
-//  Created by pezy on 12/22/14.
-//
-//  Write your own version of the StrBlob class including the const versions of front and back.
-
 #include <vector>
 #include <string>
 #include <initializer_list>
 #include <memory>
 #include <exception>
 
-using std::vector; using std::string;
+using std::vector; 
+using std::string;
 
 class StrBlob {
 public:
@@ -23,7 +16,6 @@ public:
 
     size_type size() const { return data->size(); }
     bool empty() const { return data->empty(); }
-
     void push_back(const string &t) { data->push_back(t); }
     void pop_back() {
         check(0, "pop_back on empty StrBlob");
@@ -54,6 +46,5 @@ private:
         if (i >= data->size()) throw std::out_of_range(msg);
     }
 
-private:
     std::shared_ptr<vector<string>> data;
 };

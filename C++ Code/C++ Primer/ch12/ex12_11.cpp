@@ -1,15 +1,3 @@
-/***************************************************************************
- *  @file       The code is for the exercises in C++ Primmer 5th Edition
- *  @author     Alan.W
- *  @date       23  DEC 2013
- *  @remark
- ***************************************************************************/
-//
-// Exercise 12.11:
-// What would happen if we called process as follows?
-//  An error was generated at run time : double free or corruption.
-//  See the comments below.
-
 #include <iostream>
 #include <vector>
 #include <string>

@@ -149,10 +149,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="C++ Primer\ch12\ex12_02.h" />
     <ClInclude Include="C++ Primer\include\Sales_item.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer\ch10\ex10_42.cpp" />
+    <ClCompile Include="C++ Primer\ch12\ex12_15.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -1,11 +1,3 @@
-//
-//  ex12_14.cpp
-//  Exercise 12.14
-//
-//  Created by pezy on 12/22/14.
-//
-//  Write your own version of a function that uses a shared_ptr to manage a connection.
-
 #include <iostream>
 #include <string>
 #include <memory>
