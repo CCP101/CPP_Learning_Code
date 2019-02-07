@@ -1,10 +1,4 @@
-/***************************************************************************
- *  @file       The code is for the exercises in C++ Primmer 5th Edition
- *  @author     Alan.W
- *  @date       24  DEC 2013
- *  @remark
- ***************************************************************************/
-//
+
 // Exercise 12.17:
 // Which of the following unique_ptr declarations are illegal or likely to
 // result in subsequent program error? Explain what the problem is with each

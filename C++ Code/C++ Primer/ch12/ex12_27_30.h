@@ -1,12 +1,3 @@
-//
-//  ex12_27.h 
-//  Exercise 12.27
-//
-//  Created by pezy on 12/31/14.
-//
-//  The TextQuery and QueryResult classes use only capabilities that we have already covered. 
-//  Without looking ahead, write your own versions of these classes.
-
 #ifndef CP5_ex12_27_h
 #define CP5_ex12_27_h
 
@@ -45,7 +36,5 @@ private:
     shared_ptr<std::set<TextQuery::LineNo>> nos;
     shared_ptr<vector<string>> input;
 };
-
 std::ostream& print(std::ostream &, const QueryResult&);
-
 #endif

@@ -1,18 +1,9 @@
-//
-//  ex12_15.cpp
-//  Exercise 12.15
-//
-//  Created by pezy on 12/22/14.
-//
-//  Compilers don’t always give easy-to-understand error messages if we attempt to
-//  copy or assign a unique_ptr. Write a program that contains these errors to see
-//  how your compiler diagnoses them.
-
 #include <iostream>
 #include <string>
 #include <memory>
 
-using std::string; using std::unique_ptr;
+using std::string; 
+using std::unique_ptr;
 
 int main()
 {

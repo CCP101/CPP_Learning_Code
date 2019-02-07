@@ -1,29 +1,16 @@
-//
-//  ex12_28.cpp
-//  Exercise 12.28
-//
-//  Created by pezy on 1/1/15.
-//
-//  Write a program to implement text queries without defining classes to manage the data.
-//  Your program should take a file and interact with a user to query for words in that file.
-//  Use vector, map, and set containers to hold the data for the file and
-//  to generate the results for the queries.
-
-#include <string>
-using std::string;
-
-#include <vector>
-using std::vector;
-
-#include <memory>
-using std::shared_ptr;
-
 #include <iostream>
 #include <fstream>
 #include <sstream>
 #include <map>
 #include <set>
 #include <algorithm>
+#include <memory>
+#include <vector>
+#include <string>
+
+using std::string;
+using std::vector;
+using std::shared_ptr;
 
 int main()
 {

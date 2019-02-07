@@ -1,11 +1,3 @@
-//
-//  ex12_26.cpp
-//  Exercise 12.26 
-//
-//  Created by pezy on 12/30/14.
-//
-//  Rewrite the program on page 481 using an allocator. 
-
 #include <iostream>
 #include <string>
 #include <memory>
@@ -18,7 +10,6 @@ void input_reverse_output_string(int n)
     auto q = p;
     while (q != p + n && std::cin >> s)
         alloc.construct(q++, s);
-    
     while (q != p)
     {
         std::cout << *--q << " ";

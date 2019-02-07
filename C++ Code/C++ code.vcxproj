@@ -150,10 +150,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="C++ Primer\ch12\ex12_02.h" />
-    <ClInclude Include="C++ Primer\include\Sales_item.h" />
+    <ClInclude Include="C++ Primer\ch12\ex12_27_30.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer\ch12\ex12_15.cpp" />
+    <ClCompile Include="C++ Primer\ch12\ex12_28.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

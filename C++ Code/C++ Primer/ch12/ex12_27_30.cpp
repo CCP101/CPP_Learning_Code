@@ -1,12 +1,3 @@
-//
-//  ex12_27.cpp
-//  Exercise 12.27
-//
-//  Created by pezy on 12/31/14.
-//
-//  The TextQuery and QueryResult classes use only capabilities that we have already covered.
-//  Without looking ahead, write your own versions of these classes.
-
 #include "ex12_27_30.h"
 #include <sstream>
 #include <algorithm>

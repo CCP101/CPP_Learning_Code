@@ -1,12 +1,3 @@
-//
-//  ex12_23.cpp
-//  Exercise 12.23 
-//
-//  Created by pezy on 12/30/14.
-//
-//  Write a program to concatenate two string literals, putting the result in a dynamically allocated array of char. 
-//  Write a program to concatenate two library strings that have the same value as the literals used in the first program. 
-
 #include <iostream>
 #include <string>
 #include <string.h>
