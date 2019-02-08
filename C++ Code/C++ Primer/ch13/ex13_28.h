@@ -1,11 +1,3 @@
-//
-//  ex13_28.h
-//  Exercise 13.28
-//
-//  Created by pezy on 1/20/15.
-//
-//  Given the following classes, implement a default constructor and the necessary copy-control members.
-
 #ifndef CP5_ex13_28_h
 #define CP5_ex13_28_h
 

@@ -1,16 +1,3 @@
-//
-//  ex13_34_36_37.h
-//  Exercise 13.34 13.36 13.37
-//
-//  Created by pezy on 1/26/15.
-//
-//   34: Write the Message class as described in this section.
-//
-//   36: Design and implement the corresponding Folder class. That class should hold a set that points to the Messages in that Folder.
-//
-//   37:  Add members to the Message class to insert or remove a given Folder* into folders.
-//        These members are analogous to Folder’s addMsg and remMsg operations.
-
 #ifndef CP5_ex13_34_36_37_h
 #define CP5_ex13_34_36_37_h
 

@@ -11,16 +11,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C++ Primer\ch12\ex12_02.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C++ Primer\ch12\ex12_27_30.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer\ch12\ex12_28.cpp">
+    <ClCompile Include="C++ Primer\ch13\ex13_34_36_37.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C++ Primer\ch13\ex13_34_36_37.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

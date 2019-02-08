@@ -1,16 +1,3 @@
-//
-//  ex13_31.h
-//  Exercise 13.31 
-//
-//  Created by pezy on 1/23/15.
-//
-//  Give your class a < operator and define a vector of HasPtrs. 
-//  Give that vector some elements and then sort the vector. 
-//  Note when swap is called.
-//
-//  Refactored by Yue Wang Jul 2015
-//
-
 #ifndef CP5_ex13_11_h
 #define CP5_ex13_11_h
 

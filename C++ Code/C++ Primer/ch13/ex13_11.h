@@ -1,13 +1,3 @@
-//
-//  ex13_11.h
-//  CP5
-//
-//  Created by pezy on 1/13/15.
-//
-//  Add a destructor to your HasPtr class from the previous exercises. 
-//
-//  See ex13_08.h 
-
 #ifndef CP5_ex13_11_h
 #define CP5_ex13_11_h
 

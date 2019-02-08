@@ -1,15 +1,3 @@
-//
-//  ex13_17.cpp
-//  Exercise 13.17
-//
-//  Created by pezy on 1/15/15.
-//  Refactoed by acgtyrant Aug 2015
-//
-//  Write versions of numbered and f corresponding to the previous three exercises
-//  and check whether you correctly predicted the output.
-//
-//  For 13.16
-
 #include <iostream>
 
 class numbered {

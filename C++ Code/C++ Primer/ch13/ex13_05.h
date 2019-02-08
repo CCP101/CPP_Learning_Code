@@ -1,13 +1,3 @@
-//
-//  ex13_05.h
-//  CP5
-//
-//  Created by pezy on 1/5/15.
-//
-//  Given the following sketch of a class, write a copy constructor that copies all the members.
-//  Your constructor should dynamically allocate a new string and copy the object to which ps points,
-//  rather than copying ps itself.
-
 #ifndef CP5_ex13_05_h
 #define CP5_ex13_05_h
 

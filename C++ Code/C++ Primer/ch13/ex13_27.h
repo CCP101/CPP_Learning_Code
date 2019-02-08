@@ -1,11 +1,3 @@
-//
-//  ex13_27.h
-//  Exercise 13.27
-//
-//  Created by pezy on 1/20/15.
-//
-//  Define your own reference-counted version of HasPtr. 
-
 #ifndef CP5_ex13_27_h
 #define CP5_ex13_27_h
 

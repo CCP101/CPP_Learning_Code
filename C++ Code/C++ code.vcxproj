@@ -18,6 +18,12 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++ Primer\ch13\ex13_34_36_37.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C++ Primer\ch13\ex13_34_36_37.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{EF16859C-D1B6-4DDC-8BEC-A41A92477B5C}</ProjectGuid>
@@ -148,13 +154,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="C++ Primer\ch12\ex12_02.h" />
-    <ClInclude Include="C++ Primer\ch12\ex12_27_30.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer\ch12\ex12_28.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

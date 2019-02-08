@@ -1,13 +1,3 @@
-//
-//  ex13_26.cpp
-//  Exercise 13.26
-//
-//  Created by pezy on 1/19/15.
-//
-//  Write your own version of the StrBlob class described in the previous exercise.
-//
-//  @See    ex12_22 and ex13_25
-
 #ifndef CP5_ex13_26_h
 #define CP5_ex13_26_h
 
@@ -17,7 +7,8 @@
 #include <memory>
 #include <exception>
 
-using std::vector; using std::string;
+using std::vector; 
+using std::string;
 
 class ConstStrBlobPtr;
 
@@ -79,7 +70,7 @@ public:
     ConstStrBlobPtr():curr(0) { }
     ConstStrBlobPtr(const StrBlob &a, size_t sz = 0):wptr(a.data), curr(sz) { } // should add const
     bool operator!=(ConstStrBlobPtr& p) { return p.curr != curr; }
-    const string& deref() const { // return value should add const
+    const string& deref() const { 
         auto p = check(curr, "dereference past end");
         return (*p)[curr];
     }
