@@ -1,13 +1,3 @@
-//
-//  ex13_39.cpp
-//  Exercise 13.39
-//
-//  Created by pezy on 2/3/15.
-//
-//  Write your own version of StrVec, including versions of
-//  reserve, capacity (9.4, p. 356), and resize (9.3.5, p. 352).
-//
-
 #include "ex13_39.h"
 
 void StrVec::push_back(const std::string &s)

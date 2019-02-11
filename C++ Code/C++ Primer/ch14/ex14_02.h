@@ -1,12 +1,3 @@
-//
-//  ex14_02.h
-//  Exercise 14.2
-//
-//  Created by pezy on 3/9/15.
-//
-//  @See ex7_41.h
-//  @Add overloaded input, output, addition, and compound-assignment operators
-
 #ifndef CP5_CH14_EX14_02_H
 #define CP5_CH14_EX14_02_H
 

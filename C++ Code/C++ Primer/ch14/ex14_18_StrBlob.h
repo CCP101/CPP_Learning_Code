@@ -1,15 +1,3 @@
-/*
-=================================================================================
-
-C++ Primer 5th Exercise Answer Source Code
-
-StrBlob, StrBlobPtr, ConstStrBlobPtr
-
-If you have questions, try to connect with me: pezy<urbancpz@gmail.com>
-
-=================================================================================
-*/
-
 #ifndef CP5_STRBLOB_H_
 #define CP5_STRBLOB_H_
 
@@ -23,7 +11,8 @@ using std::string;
 using std::initializer_list;
 
 #include <memory>
-using std::make_shared; using std::shared_ptr;
+using std::make_shared; 
+using std::shared_ptr;
 
 #include <exception>
 

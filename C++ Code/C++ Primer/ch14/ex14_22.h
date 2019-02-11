@@ -1,15 +1,3 @@
-/*
-=================================================================================
-
-C++ Primer 5th Exercise Answer Source Code
-
-Sales_data
-
-If you have questions, try to connect with me: pezy<urbancpz@gmail.com>
-
-=================================================================================
-*/
-
 #ifndef CP5_ex14_22_h
 #define CP5_ex14_22_h
 

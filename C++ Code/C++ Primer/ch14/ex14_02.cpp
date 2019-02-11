@@ -1,12 +1,3 @@
-//
-//  ex14_02.cpp
-//  Exercise 14.2
-//
-//  Created by pezy on 3/9/15.
-//
-//  @Brief implementation of class Sales_data
-//  @See ex14_02.h
-
 #include "ex14_02.h"
 
 Sales_data::Sales_data(std::istream &is) : Sales_data()

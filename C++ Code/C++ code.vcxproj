@@ -19,10 +19,17 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer\ch13\ex13_34_36_37.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_StrBlob.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_StrBlobTest.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_String.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_StringMain.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_StrVec.cpp" />
+    <ClCompile Include="C++ Primer\ch14\ex14_18_StrVecMain.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C++ Primer\ch13\ex13_34_36_37.h" />
+    <ClInclude Include="C++ Primer\ch14\ex14_18_StrBlob.h" />
+    <ClInclude Include="C++ Primer\ch14\ex14_18_String.h" />
+    <ClInclude Include="C++ Primer\ch14\ex14_18_StrVec.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
