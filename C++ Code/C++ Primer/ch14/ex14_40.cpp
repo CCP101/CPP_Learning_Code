@@ -1,15 +1,3 @@
-/*
-=================================================================================
-
-C++ Primer 5th Exercise Answer Source Code
-
-Rewrite the `biggies` function to use function-object classes in place of lambdas
-
-If you have questions, try to connect with me: pezy<urbancpz@gmail.com>
-
-=================================================================================
-*/
-
 #include <vector>
 using std::vector;
 

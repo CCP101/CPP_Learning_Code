@@ -1,10 +1,3 @@
-/***************************************************************************
- *  @file       StrBlobPtr_pointer.h
- *  @author     Alan.W
- *  @date       19  JAN 2014
- *  @remark     a class that holds a pointer to a StrBlobPtr.
- ***************************************************************************/
-
 #ifndef STRBLOBPTR_POINTER_H
 #define STRBLOBPTR_POINTER_H
 

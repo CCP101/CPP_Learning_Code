@@ -11,33 +11,20 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_StrBlob.cpp">
+    <None Include="C++ Primer\ch15\ex15.1.2.3\CppPrimer.pro">
+      <Filter>源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_StrBlobTest.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_String.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_StringMain.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_StrVec.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="C++ Primer\ch14\ex14_18_StrVecMain.cpp">
+    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\quote.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C++ Primer\ch14\ex14_18_StrBlob.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C++ Primer\ch14\ex14_18_String.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="C++ Primer\ch14\ex14_18_StrVec.h">
+    <ClInclude Include="C++ Primer\ch15\ex15.1.2.3\quote.h">
       <Filter>源文件</Filter>
     </ClInclude>
   </ItemGroup>

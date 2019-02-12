@@ -1,16 +1,3 @@
-/***************************************************************************
-*  @file       ex14_44.cpp
-*  @author     Yue Wang
-*  @date       21  Jan 2014
-*              17  Jun 2015  
-*  @remark     This code is for the exercises from C++ Primer 5th Edition
-*  @note
-***************************************************************************/
-//
-// Exercise 14.44:
-// Write your own version of a simple desk calculator that can handle binary operations.
-//
-
 #include <iostream>
 #include <string>
 #include <map> 
