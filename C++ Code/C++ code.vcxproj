@@ -19,14 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C++ Primer\ch15\ex15.1.2.3\CppPrimer.pro" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\main.cpp" />
-    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\quote.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C++ Primer\ch15\ex15.1.2.3\quote.h" />
+    <ClCompile Include="ACM\P1424.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

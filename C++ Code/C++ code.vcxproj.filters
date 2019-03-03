@@ -11,21 +11,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="C++ Primer\ch15\ex15.1.2.3\CppPrimer.pro">
-      <Filter>源文件</Filter>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\main.cpp">
+    <ClCompile Include="ACM\P1424.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="C++ Primer\ch15\ex15.1.2.3\quote.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="C++ Primer\ch15\ex15.1.2.3\quote.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
   </ItemGroup>
 </Project>
