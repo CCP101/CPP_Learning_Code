@@ -8,10 +8,11 @@ int main()
 	{
 		if (num1 % a == 0)
 		{
-			int array[20], sum = 0, product = 1;
-			int num2 = num1 * (b / a);
-			int num3 = num1 * (c / a);
-			if (num2 < 1000 && num3 < 1000 && num1 < num2 && num2<num3 &&num2>100&&num3>100)
+			int array[20], sum = 0, product = 1;//123 456 789
+			double temp2 = double(b) / double(a), temp3 = double(c) / double(a);
+			int num2 = num1 * temp2;
+			int num3 = num1 * temp3;
+			if (num2 < 1000 && num3 < 1000 && num1 < num2 && num2 < num3 && num2 > 100 && num3 > 100)
 			{
 				array[1] = num1 / 100;
 				array[2] = num1 / 10 % 10;
