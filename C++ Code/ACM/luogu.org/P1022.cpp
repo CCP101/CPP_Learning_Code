@@ -38,7 +38,14 @@ int main()
 		if (cal[i] >= 'a'&&cal[i] <= 'z')
 		{
 			char1 = cal[i];
-			sum_x += flag * flag2*sum_temp;
+			if (sum_temp==0)
+			{
+				sum_x += 1;
+			}
+			else
+			{
+				sum_x += flag * flag2*sum_temp;
+			}
 			sum_temp = 0;
 			flag = 1;
 		}
