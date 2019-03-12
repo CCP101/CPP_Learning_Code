@@ -1,5 +1,6 @@
 #include<iostream>
 #include<string>
+#include<cmath>
 using namespace std;
 int main()
 {
@@ -12,7 +13,6 @@ int main()
 	int round = 0, countw[10000] = { 0 }, countl[10000] = { 0 };
 	for (size_t i = 0; i < recorde.length(); i++)
 	{
-		round = int(i) / 11;
 		if (recorde[i]!='E')
 		{
 			if (recorde[i]=='W')
@@ -24,6 +24,13 @@ int main()
 				countl[round]++;
 			}
 		}
+		if (countw[round]>=11||countl[round]>=11)
+		{
+			if (countw[round] - countl[round] >= 2 || countl[round] - countw[round] >= 2)
+			{
+				round++;
+			}
+		}
 	}
 	for (int i = 0; i <= round; i++)
 	{
@@ -32,9 +39,9 @@ int main()
 	cout << endl;
 	int countw2[10000] = { 0 };
 	int countl2[10000] = { 0 };
+	round = 0;
 	for (size_t i = 0; i < recorde.length(); i++)
 	{
-		round = int(i) / 21;
 		if (recorde[i] != 'E')
 		{
 			if (recorde[i] == 'W')
@@ -44,6 +51,13 @@ int main()
 			if (recorde[i] == 'L')
 			{
 				countl2[round]++;
+			}
+		}
+		if (countw2[round] >= 21 || countl2[round] >= 21)
+		{
+			if (countw2[round] - countl2[round] >= 2 || countl2[round] - countw2[round] >= 2)
+			{
+				round++;
 			}
 		}
 	}
