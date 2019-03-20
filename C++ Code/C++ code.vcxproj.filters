@@ -11,7 +11,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ACM\luogu.org\P1042.cpp">
+    <ClCompile Include="ACM\lanqiao_sheng_B\2018_8.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
