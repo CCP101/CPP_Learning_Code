@@ -1,0 +1,34 @@
+编写一个程序，找到两个单链表相交的起始节点。
+
+
+public class Solution {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
+                int lengthA=0,lengthB=0;
+        ListNode pa=headA,pb=headB;
+        while(pa!=null){
+        	lengthA++;
+        	pa=pa.next;
+        }pa=headA;
+        while(pb!=null){
+        	lengthB++;
+        	pb=pb.next;
+        }pb=headB;
+        
+        if(lengthA<lengthB){
+        	for(int i=0;i<lengthB-lengthA;i++){
+        		pb=pb.next;
+        	}
+        }
+        if(lengthA>lengthB){
+        	for(int i=0;i<lengthA-lengthB;i++){
+        		pa=pa.next;
+        	}
+        }
+        while(pa!=null&&pb!=null){
+        	if(pa==pb)return pa;
+        	pa=pa.next;
+        	pb=pb.next;
+        }
+        return null;
+    }
+}

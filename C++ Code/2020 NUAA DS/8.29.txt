@@ -1,0 +1,74 @@
+package leetcode.temp;
+import java.util.Arrays;
+import org.junit.Test;
+import leetcode.dataStructure.ListNode;
+public class Solution20_4 {
+	/* 给定一个单链表，元素是整数，无序，查找中位节点并删除
+	 * 中位节点定义：该节点前的元素之和与该节点后的元素之和，差值最小
+	 * 要求：必须是高效算法，写出思想、给出代码、分析时间复杂度
+	 * */
+	
+	/* 这道题按照题目的要求，可以用动态规划的方法，维护一个数组a，元素ai保存链表前i个元素的和，
+	 * 然后创建一个结果数组b用来保存前后和之差的绝对值，然后根据数组a就可以求出每个位置的前后和之差，
+	 * 然后从中选择一个符合题意的位置，把这个位置的链表节点删除。
+	 * 我的理解，题目里面应该是想找到前后和之差的绝对值最小的，而不是单纯差值最小的
+	 * 虽然代码麻烦了点，但是时间复杂度是O(n)，空间复杂度也是O(n)
+	 * */
+	public ListNode DeleteMidSum(ListNode L){
+		//如果链表为空，或者只有一个节点，就不做处理,因为要想做删除操作，链表节点必须不少于两个
+		if(L==null||L.next==null)return L;
+		int num=0;//元素个数
+		for(ListNode q=L;q!=null;q=q.next){num++;}
+		int[] a=new int[num+1];//从1到num位置分别保存链表前i个元素的和,0号位0
+		int[] b=new int[num+1];//从1到num位置分别保存i号元素前后和之差的绝对值
+		int sum=0;
+		ListNode p=L;
+		for(int i=1;p!=null;p=p.next,i++){//求出数组a
+			sum+=p.val;
+			a[i]=sum;
+		}
+		for(int i=1;i<=num;i++){//求出数组b
+			int leftSum=a[i-1];
+			int rightSum=sum-a[i];
+			b[i]=Math.abs(leftSum-rightSum);
+		}
+		int delIndex=1;
+		for(int i=1;i<=num;i++){//找出待删节点的索引
+			if(b[i]<b[delIndex]){
+				delIndex=i;
+			}
+		}
+		System.out.println("delIndex is:"+delIndex);
+		return delIndex(L,delIndex);//根据索引删除节点
+		
+	}
+	private ListNode delIndex(ListNode l, int delIndex) {
+		//删除链表的第delIndex（1到length）个元素
+		ListNode dumpHead=new ListNode();
+		dumpHead.next=l;
+		ListNode pre=dumpHead,p=l;int cur=1;
+		while(cur<delIndex){
+			p=p.next;
+			pre=pre.next;
+			cur++;
+		}
+		pre.next=p.next;
+		return dumpHead.next;
+	}
+
+	@Test
+	public void f(){
+		ListNode l1=new ListNode(9);
+		ListNode l2=new ListNode(6);
+		ListNode l3=new ListNode(3);
+		ListNode l4=new ListNode(7);
+		ListNode l5=new ListNode(12);
+		ListNode l6=new ListNode(8);//容易看出，中位节点是7
+		l1.next=l2;l2.next=l3;l3.next=l4;
+		l4.next=l5;l5.next=l6;l6.next=null;
+		ListNode result=DeleteMidSum(l1);
+		for(ListNode pListNode=result;pListNode!=null;pListNode=pListNode.next){
+			System.out.println(pListNode.val);
+		}
+	}
+}

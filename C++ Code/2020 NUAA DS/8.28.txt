@@ -1,0 +1,54 @@
+给定一个二叉树，返回其节点值自底向上的层次遍历。 （即按从叶子节点所在层到根节点所在的层，逐层从左向右遍历）
+给定二叉树 [3,9,20,null,null,15,7]
+    3
+   / \
+  9  20
+    /  \
+   15   7
+返回其自底向上的层次遍历为：
+[
+  [15,7],
+  [9,20],
+  [3]
+]
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+		
+	}
+}
+
+
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+class Solution {
+    public List<List<Integer>> levelOrderBottom(TreeNode root) {
+    	List<List<Integer>> result=new ArrayList<List<Integer>>();
+    	if(root==null) return result;//如果空树，返回[]
+    	
+    	Queue<TreeNode> queue=new LinkedList<TreeNode>();//工具队列
+    	
+    	List<Integer> levelResult0=new ArrayList<Integer>();//根节点
+    	levelResult0.add(root.val);
+    	result.add(levelResult0);//[[根节点值]]
+    	
+    	queue.offer(root);
+    	while(!queue.isEmpty()){
+    		int levelSize=queue.size();
+    		List<Integer> levelResult=new ArrayList<Integer>();//保存每一层的[]
+    		for(int i=0;i<levelSize;i++){
+    			TreeNode p=queue.poll();//对这层每个元素进行访问，把孩子们入队，并且加入下一层的[]
+    			if(p.left!=null){queue.offer(p.left);levelResult.add(p.left.val);}
+    			if(p.right!=null){queue.offer(p.right);levelResult.add(p.right.val);}
+    		}
+    		if(levelResult.size()==0) return result;//在最后的叶子节点那层，没有孩子了，这个时候就不要把[]加进去
+    		result.add(0, levelResult);
+    	}return result;
+    }
+}
