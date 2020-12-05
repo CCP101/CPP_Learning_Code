@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2020 C++ DS\C2-Array and linked list\List inversion.cpp" />
+    <ClCompile Include="2020 NUAA DS\2013DS_5.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

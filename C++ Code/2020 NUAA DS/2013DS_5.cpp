@@ -30,18 +30,24 @@ int main()
 {
 	//自己定义一些二叉树试一试 
 	BiTree r= (BiTree)malloc(sizeof(BTNode));
-	r->l=NULL;r->r=NULL;
+	r->l=NULL;
+	r->r=NULL;
 	printf("该树有%d层\n",BTDepth(r));
 	
 	BiTree a21= (BiTree)malloc(sizeof(BTNode));
-	a21->l=NULL;a21->r=NULL;
+	a21->l=NULL;
+	a21->r=NULL;
 	r->l=a21;
 	printf("该树有%d层\n",BTDepth(r));
 	
 	BiTree a31= (BiTree)malloc(sizeof(BTNode));
 	BiTree a32= (BiTree)malloc(sizeof(BTNode));
-	a21->l=a31;a21->r=a32;
-	a31->l=NULL;a31->r=NULL;a32->l=NULL;a32->r=NULL;
+	a21->l=a31;
+	a21->r=a32;
+	a31->l=NULL;
+	a31->r=NULL;
+	a32->l=NULL;
+	a32->r=NULL;
 	printf("该树有%d层\n",BTDepth(r));
 	//其他情况自己去试吧 
 }
