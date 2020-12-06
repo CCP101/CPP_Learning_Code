@@ -24,11 +24,11 @@ void fun(LinkList A) {
 		if (p->next) {
 			p = p->next;
 			q = p->next;
-		}
+		}//尾插法实现倒序
 		else { break; }
 	}
-	p->next = B->next; /* A 后接 B */
-	free(B);
+	p->next = B->next; 
+	free(B);//A接B 释放B
 }
 int main()
 {

@@ -11,7 +11,7 @@ void del(LinkList L)
 	if(!p){return;}
 	while(p){
 		pre=p;q=p->next;
-		while(q)
+		while(q)//Ñ­»·±éÀú
 		{
 			if(p->data==q->data)
 			{

@@ -16,7 +16,7 @@ void BTDepth(BiTree T) {
 	int front = -1, rear = -1, top = -1;
 	int last = 0, level = 0, count = 1;
 	Q[++rear] = T;//根节点入队，开始处理
-	while (front < rear)
+	while (front < rear)//按层次存储在数组中，使用非递归方法找寻孩子兄弟
 	{
 		p = Q[++front];//出队、访问 
 		++top;//入栈、保存 (逻辑栈)

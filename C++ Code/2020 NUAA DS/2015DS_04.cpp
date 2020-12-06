@@ -22,7 +22,7 @@ void ListSort(LinkList A){
 		}
 		maxpre->next=max->next;
 		max->next=B->next;
-		B->next=max; 
+		B->next=max; //每一趟找出最大的元素拼接到B
 	}
 	A->next=B->next;
 	free(B);

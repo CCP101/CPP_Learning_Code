@@ -57,19 +57,19 @@ int main()
 	root->data=100;r1->data=101;r2->data=102;r3->data=103;r4->data=104;
 	root->l=r1;root->r=NULL;
 	r1->l=NULL;r1->r=NULL;
-	postTravel(root);
+	//postTravel(root);
 	
 	r1->r=r2;
 	r2->l=NULL;r2->r=NULL;
-	postTravel(root);
+	//postTravel(root);
 	
 	root->r=r3;
 	r3->l=NULL;r3->r=NULL;
-	postTravel(root);
+	//postTravel(root);
 	
 	root->r=NULL;
 	r1->l=r3;
-	postTravel(root);
+	//postTravel(root);
 	
 	r2->l=r4;
 	r4->l=NULL;r4->r=NULL;

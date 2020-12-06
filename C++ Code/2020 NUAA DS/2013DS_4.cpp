@@ -22,10 +22,10 @@ void GetCommon(LinkList A, LinkList B)
 			q = q->next;//B链表不进行删除 
 		}
 		else {
-			s = p->next;
+			s = p->next;//保存现场
 			p->next = A->next;
 			A->next = p;
-			p = s;
+			p = s;//数组尾插法实现倒序,返回原有值
 		}
 	}
 	while (p)
@@ -41,13 +41,27 @@ int main()
 	LinkList a1 = (LinkList)malloc(sizeof(LNode));
 	LinkList a2 = (LinkList)malloc(sizeof(LNode));
 	LinkList a3 = (LinkList)malloc(sizeof(LNode));
+	LinkList a4 = (LinkList)malloc(sizeof(LNode));
 	LinkList B = (LinkList)malloc(sizeof(LNode));
 	LinkList b1 = (LinkList)malloc(sizeof(LNode));
 	LinkList b2 = (LinkList)malloc(sizeof(LNode));
-	A->next = a1; a1->next = a2; a2->next = a3; a3->next = NULL;
-	a1->data = 2; a2->data = 3; a3->data = 5;
-	B->next = b1; b1->next = b2; b2->next = NULL;
-	b1->data = 1; b2->data = 3;
+	LinkList b3 = (LinkList)malloc(sizeof(LNode));
+	A->next = a1; 
+	a1->next = a2; 
+	a2->next = a3; 
+	a3->next = a4; 
+	a4->next = NULL;
+	a1->data = 2; 
+	a2->data = 3; 
+	a3->data = 5; 
+	a4->data = 6;
+	B->next = b1; 
+	b1->next = b2; 
+	b2->next = b3; 
+	b3->next = NULL;
+	b1->data = 1; 
+	b2->data = 3; 
+	b3->data = 6;
 	LinkList p = A->next, q = B->next;
 	printf("A中元素：");
 	while (p) {

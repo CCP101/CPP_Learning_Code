@@ -15,7 +15,7 @@ int BTDepth(BiTree T) {
 	Q[++rear] = T;//根节点入队，开始处理
 	while (front < rear)
 	{
-		p = Q[++front];
+		p = Q[++front];//该层最左侧结点
 		if (p->l)
 		{
 			Q[++rear] = p->l;
@@ -27,7 +27,7 @@ int BTDepth(BiTree T) {
 		if (last == front)//如果访问到某层的最后一个节点 
 		{
 			level++;
-			last = rear;
+			last = rear;//实现该层的查找完毕
 		}
 	}
 	return level;

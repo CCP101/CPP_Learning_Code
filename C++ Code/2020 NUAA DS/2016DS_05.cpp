@@ -7,7 +7,7 @@ typedef struct BTNode{//和13年有所不同
 	struct BTNode* l;//现在l是孩子  
 	struct BTNode* r;//现在r是兄弟 
 }BTNode,*BiTree;
-bool check(BiTree T){
+bool check(BiTree T){//检查完全二叉树
 	if(!T){return false;}
 	BiTree Q[maxsize],p;
 	int front=-1,rear=-1;
