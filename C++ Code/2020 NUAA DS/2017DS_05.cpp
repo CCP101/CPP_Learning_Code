@@ -16,7 +16,7 @@ void judge(int* a,int n)
 } 
 int main()
 {
-	int a[6]={41,99,62,38,70,55};
+	int a[6]={69,21,62,38,70,55};
 	for(int i=0;i<6;i++)
 	{
 		printf("%d\t",a[i]);

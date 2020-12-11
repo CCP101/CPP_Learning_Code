@@ -1,4 +1,8 @@
-//2015DS第五题
+//2015DS第五题 后序遍历
+/*
+设二叉树T，用二叉链表结构存储。编写函数，输出最长一枝（根到叶子）上的所有结点值。
+要求先给出算法思想，再写出相应代码。
+*/
 #include<stdio.h> 
 #include<malloc.h>
 #define maxsize 50
@@ -24,7 +28,7 @@ void postTravel(BiTree T)
 				p=p->r;
 				S[++top]=p;
 				p=p->l;
-				 
+			
 			}
 			else{//如果没有右子树、或者右子树已经被访问：弹出 
 				p=S[top--];
@@ -39,7 +43,8 @@ void postTravel(BiTree T)
 						}
 					}
 				}
-		 		r=p;p=NULL;
+				r=p;
+				p=NULL;
 			}
 		}
 	}

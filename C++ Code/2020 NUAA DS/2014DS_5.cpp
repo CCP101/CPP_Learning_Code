@@ -1,4 +1,9 @@
-//2014数据结构第五题 
+//2014数据结构第五题 特殊的层次遍历
+/*
+设有一家谱树T，用二叉链表结构存储（孩子兄弟表示法），树中的结点信息为
+成员名字。编写函数，输出家谱中共有多少代以及最后一代人数和成员名字。
+要求先给出算法思想，再写出相应代码。
+*/
 #include<stdio.h> 
 #include<malloc.h>
 #define maxsize 50
@@ -72,7 +77,7 @@ int main()
 	r13->l = NULL; r13->r = NULL;
 	//BTDepth(root);
 
-	r13->l = r14;
+	r13->r = r14;
 	r14->data = 104;
 	r14->l = NULL; r14->r = NULL;
 	BTDepth(root);

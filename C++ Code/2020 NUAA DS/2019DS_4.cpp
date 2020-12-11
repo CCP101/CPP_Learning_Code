@@ -22,11 +22,11 @@ LinkList Merge(LinkList A,LinkList B)
 			free(s);
 		}
 		else{
-		 if(p->data>q->data)
+			if(p->data>q->data)
 			{
 				s=p;p=p->next;
 			}
-		else{
+			else{
 				s=q;q=q->next;
 			}
 			s->next=C->next;

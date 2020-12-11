@@ -1,4 +1,9 @@
-//2014数据结构第四题 
+//2014数据结构第四题 链表处理
+/*
+设一个带头结点的单链表L，数据元素为（a1,a2,a3,a4,... ,an）,编写函数，
+调整该链表，使得数据元素次序为（a1, a3,...,an, ... ,a4,a2）, 要求T(n)=O(n)，
+先给出算法思想，再写出相应代码。
+*/
 #include<stdio.h>
 #include<malloc.h>
 typedef struct LNode {
@@ -13,19 +18,23 @@ void fun(LinkList A) {
 		return;
 	}
 	LinkList q = p->next; /* p 指向 A 的第一个结点 */
-	LinkList B = (LinkList)malloc(sizeof(LNode));
-	B->next = NULL; /* 创建链表 B */
-	while (p && q)
+LinkList B = (LinkList)malloc(sizeof(LNode));
+B->next = NULL; /* 创建链表 B */
+while (p && q)
+{
+	p->next = q->next;
+	q->next = B->next;
+	B->next = q;
+
+	if (p->next)
 	{
-		p->next = q->next;
-		q->next = B->next;
-		B->next = q;
-		
-		if (p->next) {
-			p = p->next;
-			q = p->next;
-		}//尾插法实现倒序
-		else { break; }
+		p = p->next;
+		q = p->next;
+	} //尾插法实现倒序
+	else
+	{
+		break;
+	}
 	}
 	p->next = B->next; 
 	free(B);//A接B 释放B
